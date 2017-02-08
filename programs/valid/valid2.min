@@ -1,0 +1,22 @@
+
+var a: float;
+var b: float;
+var res: float;
+var val: float;
+var doneString: string;
+
+
+read a;
+read b;
+res = a * b + b;
+
+
+while res do
+	res = res +- 1;
+done
+
+doneString = "It is done";
+
+print doneString;
+
+//the valid program 2 is done

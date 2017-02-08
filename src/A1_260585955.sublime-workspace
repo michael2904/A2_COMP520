@@ -1,0 +1,1225 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"tE",
+				"tEOF\t(minilangParser.y)"
+			],
+			[
+				"tFL",
+				"tFLOAT\t(minilangParser.y)"
+			],
+			[
+				"new",
+				"new_image"
+			],
+			[
+				"size",
+				"sizeof"
+			],
+			[
+				"itera",
+				"iteration"
+			],
+			[
+				"lo",
+				"locIndJ"
+			],
+			[
+				"loc",
+				"locIndI"
+			],
+			[
+				"di",
+				"divC"
+			],
+			[
+				"cou",
+				"count23Val"
+			],
+			[
+				"el",
+				"elif"
+			],
+			[
+				"res",
+				"result2"
+			],
+			[
+				"count",
+				"countVal"
+			],
+			[
+				"dat",
+				"dataList"
+			],
+			[
+				"a",
+				"append"
+			],
+			[
+				"da",
+				"dataN2"
+			],
+			[
+				"grid",
+				"grid_size"
+			],
+			[
+				"ite",
+				"iterations"
+			],
+			[
+				"my",
+				"myid"
+			],
+			[
+				"hei",
+				"height"
+			],
+			[
+				"new_",
+				"new_width"
+			],
+			[
+				"ar",
+				"argc"
+			],
+			[
+				"init_s",
+				"init_superblock"
+			],
+			[
+				"ipGa",
+				"IP_Gateway"
+			],
+			[
+				"RFS_Type",
+				"RFS_TypeReception"
+			],
+			[
+				"geo",
+				"geographicEntity"
+			],
+			[
+				"GEN",
+				"GEN_Commune"
+			],
+			[
+				"LOC_CO",
+				"LOC_CodeIG"
+			],
+			[
+				"serviceTe",
+				"serviceTechniqueEmission"
+			],
+			[
+				"serv",
+				"service"
+			],
+			[
+				"serviceRe",
+				"serviceReceptionPrincipale\t(ExportCSAImpl.java)"
+			],
+			[
+				"Mana",
+				"ManagedEntityValue"
+			],
+			[
+				"Ma",
+				"ManagedEntityValue"
+			],
+			[
+				"serviceTec",
+				"serviceTechniqueEmissionList"
+			],
+			[
+				"comp",
+				"companyList"
+			],
+			[
+				"Service",
+				"ServiceOf"
+			],
+			[
+				"infra",
+				"infrastructure"
+			],
+			[
+				"géo",
+				"géomarketing\t(ExportGen_en.properties)"
+			],
+			[
+				"ser",
+				"serviveList"
+			],
+			[
+				"org",
+				"organization"
+			],
+			[
+				"Emp",
+				"EmpId"
+			],
+			[
+				"Com",
+				"CommAmount\t(a2_setup_db_eduardo.sql)"
+			],
+			[
+				"Co",
+				"CommDate\t(a2_setup_db_eduardo.sql)"
+			],
+			[
+				"plaque",
+				"plaqueDeSite"
+			],
+			[
+				"Conta",
+				"ContainedKey"
+			],
+			[
+				"getMan",
+				"getManagedEntityKey"
+			],
+			[
+				"error",
+				"errorLine"
+			],
+			[
+				"ch",
+				"child_pid"
+			],
+			[
+				"counte",
+				"counterModulo"
+			],
+			[
+				"c",
+				"counter"
+			],
+			[
+				"pr",
+				"projet"
+			],
+			[
+				"Sign",
+				"SignUpForm"
+			],
+			[
+				"__",
+				"__unicode__\t(models.py)"
+			],
+			[
+				"leget",
+				"legetObjectsWithMev"
+			],
+			[
+				"Respons",
+				"ResponsibleFor"
+			],
+			[
+				"item",
+				"itemOri"
+			],
+			[
+				"MAnag",
+				"ManagedEntityValue"
+			],
+			[
+				"proce",
+				"processRow"
+			],
+			[
+				"log",
+				"logStream"
+			],
+			[
+				"NodeOb",
+				"nodeObjectList"
+			],
+			[
+				"node",
+				"nodeObject"
+			],
+			[
+				"nodeObj",
+				"nodeObjectList"
+			],
+			[
+				"nom",
+				"nomOnyx"
+			],
+			[
+				"numer",
+				"numeroVersionArticle"
+			],
+			[
+				"locat",
+				"locationList"
+			],
+			[
+				"connecto",
+				"connectorOri"
+			],
+			[
+				"ge",
+				"getPSCName"
+			],
+			[
+				"Hel",
+				"HeliosV5"
+			],
+			[
+				"helios",
+				"helios-combo"
+			],
+			[
+				"com",
+				"companyName"
+			],
+			[
+				"conn",
+				"connectorSource"
+			],
+			[
+				"serviceRes",
+				"serviceReseau2"
+			],
+			[
+				"CNC",
+				"CNC_CTP"
+			],
+			[
+				"MA",
+				"ManagedEntityValue"
+			],
+			[
+				"Serv",
+				"ServiceOf\t(R_INV_REG_F3.html)"
+			],
+			[
+				"pres",
+				"prestataire_pilote"
+			],
+			[
+				"ps_id",
+				"ps_id_pilote"
+			],
+			[
+				"seco",
+				"secours_energie"
+			],
+			[
+				"cont",
+				"contratSLA"
+			],
+			[
+				"Contr",
+				"Contract"
+			],
+			[
+				"ps",
+				"ps_id"
+			],
+			[
+				"type",
+				"typePilote"
+			],
+			[
+				"loca",
+				"localEngine"
+			],
+			[
+				"Servic",
+				"ServiceOf"
+			],
+			[
+				"pre",
+				"prestataire"
+			],
+			[
+				"typ",
+				"type_ps"
+			],
+			[
+				"ne",
+				"newLine"
+			],
+			[
+				"dir",
+				"dir_reg_name"
+			],
+			[
+				"code",
+				"code_csa"
+			],
+			[
+				"str",
+				"strStartDate"
+			],
+			[
+				"HELIOS-INFRA",
+				"HELIOS-INFRA-INFRA"
+			],
+			[
+				"next",
+				"nextItem"
+			],
+			[
+				"out",
+				"outputFolder"
+			],
+			[
+				"class",
+				"classif"
+			],
+			[
+				"itemA",
+				"itemAType"
+			],
+			[
+				"getIt",
+				"getItemTypeName"
+			],
+			[
+				"LOC_DE",
+				"LOC_DESCRIPTION_IG"
+			],
+			[
+				"doS",
+				"doSyncSite"
+			],
+			[
+				"sql",
+				"sqlSelect"
+			],
+			[
+				"fill",
+				"fillFromHelios"
+			],
+			[
+				"Array",
+				"ArrayList"
+			],
+			[
+				"sup",
+				"supprimeIG"
+			],
+			[
+				"modifi",
+				"modifiedIG"
+			],
+			[
+				"clo",
+				"columns\t(FullCopy.java)"
+			],
+			[
+				"re",
+				"region"
+			],
+			[
+				"get",
+				"getAttribute"
+			],
+			[
+				"RE",
+				"REGION_DESCRIPTION"
+			],
+			[
+				"getObje",
+				"getObjectWithMev"
+			],
+			[
+				"GEN_CO",
+				"GEN_CODE_INSEE"
+			],
+			[
+				"getA",
+				"getAttribute"
+			],
+			[
+				"Ge",
+				"GEN_COMMUNE"
+			],
+			[
+				"Struc",
+				"StructureNode"
+			],
+			[
+				"Geo",
+				"GeographicEntity\t(mapping.csv)"
+			],
+			[
+				"create",
+				"createdItems"
+			],
+			[
+				"crea",
+				"createdItems"
+			],
+			[
+				"Arra",
+				"ArrayList"
+			],
+			[
+				"createI",
+				"createdArticles"
+			],
+			[
+				"artci",
+				"articleType"
+			],
+			[
+				"articl",
+				"articleTypeNQL"
+			],
+			[
+				"arti",
+				"articleType"
+			],
+			[
+				"params",
+				"paramsType"
+			],
+			[
+				"art",
+				"articleType"
+			],
+			[
+				"Ca",
+				"CatalogItemValue"
+			],
+			[
+				"super",
+				"superCat"
+			],
+			[
+				"arc",
+				"articleTypeNQL"
+			],
+			[
+				"Devi",
+				"DeviceType"
+			],
+			[
+				"direc",
+				"directoryPath"
+			],
+			[
+				"updat",
+				"updatedProjects"
+			],
+			[
+				"proje",
+				"projetType"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "test.txt",
+			"settings":
+			{
+				"buffer_size": 262,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"last_filter": "inde",
+		"selected_items":
+		[
+			[
+				"inde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"trai",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"fold",
+				"Code Folding: Fold Tag Attributes"
+			],
+			[
+				"flod",
+				"Code Folding: Unfold All"
+			],
+			[
+				"rei",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"trailin",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"comme",
+				"Toggle Block Comment"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 579.0
+	},
+	"console":
+	{
+		"height": 127.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/michaelAM 1/Documents/Mcgill/Winter2017/COMP520/Michael_Abdallah-Minciotti/src"
+	],
+	"file_history":
+	[
+		"/Users/michaelAM 1/Documents/Mcgill/Winter2017/COMP520/A1_260585955/Makefile",
+		"/Users/michaelAM 1/Documents/Mcgill/Winter2017/COMP520/A1_260585955/main.c",
+		"/Users/michaelAM 1/Documents/Mcgill/Winter2017/COMP520/A1_260585955/minilangScan.l",
+		"/Users/michaelAM 1/Desktop/notes2.txt",
+		"/Users/michaelAM 1/Documents/Mcgill/Winter2017/COMP520/A1_260585955/minilangParser.y",
+		"/Users/michaelAM 1/Documents/Mcgill/Winter2017/COMP520/A1_260585955/test.txt",
+		"/Users/michaelAM 1/Desktop/notes.txt",
+		"/Users/michaelAM 1/Documents/Mcgill/Winter2017/COMP520/Michael_Abdallah-Minciotti/README",
+		"/Users/michaelAM 1/Documents/Mcgill/Winter2017/COMP520/Michael_Abdallah-Minciotti/DragonName.txt",
+		"/Users/michaelAM 1/Documents/Mcgill/Winter2017/COMP520/tiny/flex+bison/main.c",
+		"/Users/michaelAM 1/Documents/Mcgill/Winter2017/COMP520/A1_260585955/lex.yy.c",
+		"/Users/michaelAM 1/Documents/Mcgill/Winter2017/COMP520/A1_260585955/minilangScan",
+		"/Users/michaelAM 1/Downloads/testcases.txt",
+		"/Users/michaelAM 1/Documents/Mcgill/Winter2017/COMP520/A1_260585955/check",
+		"/Users/michaelAM 1/Documents/Mcgill/Winter2017/COMP520/A1_260585955/tiny.l",
+		"/Users/michaelAM 1/Documents/Mcgill/Winter2017/COMP520/A1_260585955/tiny.y",
+		"/Users/michaelAM 1/Documents/Mcgill/Fall2016/ECSE420/Lab3_ecse420_g7/makefile",
+		"/Users/michaelAM 1/Documents/Mcgill/Fall2016/ECSE420/Lab2_ecse420_g7/grid_512_512.py",
+		"/Users/michaelAM 1/Documents/Mcgill/Fall2016/ECSE420/Lab3_ecse420_g7/grid_sequential.cu",
+		"/Users/michaelAM 1/Documents/Mcgill/Fall2016/ECSE420/Lab3_ecse420_g7/rectify.cu",
+		"/Users/michaelAM 1/Documents/Mcgill/Fall2016/ECSE420/Lab3_ecse420_g7/pool.cu",
+		"/Users/michaelAM 1/Documents/Mcgill/Fall2016/ECSE420/Lab3_ecse420_g7/grid_4_4.cu",
+		"/Users/michaelAM 1/Documents/Mcgill/Fall2016/ECSE420/Lab3_ecse420_g7/grid_512_512.cu",
+		"/Users/michaelAM 1/Documents/Mcgill/Fall2016/ECSE420/Lab3_ecse420_g7/convolve.cu",
+		"/Users/michaelAM 1/Documents/Mcgill/Fall2016/ECSE420/Tutorial_Lab3/atomics.cu",
+		"/Users/michaelAM 1/Documents/Mcgill/Fall2016/ECSE420/Tutorial_Lab3/memory.cu",
+		"/Users/michaelAM 1/Documents/Mcgill/Fall2016/ECSE420/Tutorial_Lab3/shift.cu",
+		"/Users/michaelAM 1/Documents/Mcgill/Fall2016/ECSE420/Lab3_ecse420_g7/grid.cu",
+		"/Users/michaelAM 1/Documents/Mcgill/Fall2016/ECSE420/Tutorial_Lab3/square_blocks.cu",
+		"/Users/michaelAM 1/Documents/Mcgill/Fall2016/ECSE420/Tutorial_Lab3/square.cu",
+		"/Users/michaelAM 1/Documents/Mcgill/Fall2016/ECSE420/Lab3_ecse420_g7/pool_sequential.c",
+		"/Users/michaelAM 1/Documents/Mcgill/Fall2016/ECSE420/Lab3_ecse420_g7/convolve_sequential.c",
+		"/Users/michaelAM 1/Documents/Mcgill/Fall2016/ECSE420/Lab3_ecse420_g7/grid_sequential.cu.c",
+		"/Users/michaelAM 1/Documents/Mcgill/Fall2016/ECSE420/Lab3_ecse420_g7/grid_sequential.c",
+		"/Users/michaelAM 1/Documents/Mcgill/Fall2016/ECSE420/Lab1_ecse420_g7/test_convolution.c",
+		"/Users/michaelAM 1/Documents/Mcgill/Fall2016/ECSE420/Lab3_ecse420_g7/wm.h",
+		"/Users/michaelAM 1/Documents/Mcgill/Fall2016/ECSE420/Lab3_ecse420_g7/test_equality.cu",
+		"/Users/michaelAM 1/Documents/Mcgill/Fall2016/ECSE420/Tutorial_Lab3/pool_sequential.c",
+		"/Users/michaelAM 1/Documents/Mcgill/Fall2016/ECSE420/Lab1_ecse420_g7/test_pooling.c",
+		"/Users/michaelAM 1/Documents/Mcgill/Fall2016/ECSE420/Lab1_ecse420_g7/test_rectification.c",
+		"/Users/michaelAM 1/Documents/Mcgill/Fall2016/ECSE420/Lab3_ecse420_g7/rectify_sequential.cu",
+		"/Users/michaelAM 1/Documents/Mcgill/Fall2016/ECSE420/Lab3_ecse420_g7/pool_sequential.cu",
+		"/Users/michaelAM 1/Documents/Mcgill/Fall2016/ECSE420/Tutorial_Lab3/rectify_sequential.c",
+		"/Users/michaelAM 1/Documents/Mcgill/Fall2016/ECSE420/Lab3_ecse420_g7/rectify_sequential.cu.c",
+		"/Users/michaelAM 1/Documents/Mcgill/Fall2016/ECSE420/Tutorial_Lab3/grid_sequential.c",
+		"/Users/michaelAM 1/Documents/Mcgill/Fall2016/ECSE420/Tutorial_Lab3/convolve_sequential.c",
+		"/jboss-4.0.5.GA/server/Ni2_16_11/deploy/jbossweb-tomcat55.sar/ROOT.war/Ni2Configuration/ConfigurationManagement_Menu.xml",
+		"/jboss-4.0.5.GA/server/HeliosV5/ni2config.properties",
+		"/jboss-4.0.5.GA/server/HeliosV5/conf/CustomFieldsHelios_v5_tdf_locations_ForImports.properties",
+		"/Users/michaelAM 1/Documents/Mcgill/Fall2016/ECSE420/Lab2_ecse420_g7/output.h",
+		"/Users/michaelAM 1/Documents/Mcgill/Fall2016/ECSE420/Lab2_ecse420_g7/grid_4_4.py",
+		"/Users/michaelAM 1/Documents/Mcgill/Fall2016/ECSE420/Lab2_ecse420_g7/L_grid_4_4.py",
+		"/Users/michaelAM 1/Documents/Mcgill/Fall2016/ECSE420/Tutorial_Lab2/mpi_bcast_test.c",
+		"/Users/michaelAM 1/Documents/Programming/Shopicircuit/shopicircuit.py",
+		"/Users/michaelAM 1/Documents/Programming/Shopicircuit/shopicircuit",
+		"/jboss-4.0.5.GA/server/HeliosV5/conf/Helios_v5/resources/Helios_v5.properties",
+		"/jboss-4.0.5.GA/server/HeliosV5/conf/Helios_v5/resources/Helios_v5CustomFieldsByClassification.properties",
+		"/Users/michaelAM 1/Documents/Mcgill/Fall2016/ECSE420/Lab2_ecse420_g7/Ass_2_q4_sol",
+		"/Users/michaelAM 1/Documents/Mcgill/Fall2016/ECSE420/Lab2_ecse420_g7/makefile",
+		"/Users/michaelAM 1/Documents/Mcgill/Fall2016/ECSE420/Tutorial_Lab2/mpi4py_test.py",
+		"/Users/michaelAM 1/Documents/Mcgill/Fall2016/PE/Midterm Notes",
+		"/Users/michaelAM 1/Documents/Mcgill/Fall2016/ECSE420/Lab1_ecse420_g7/test_rectification_MPI.c",
+		"/Users/michaelAM 1/Documents/Mcgill/Fall2016/ECSE420/Lab1_ecse420_g7/mpi_array.c",
+		"/Users/michaelAM 1/Documents/Mcgill/Fall2016/ECSE420/Tutorial_Lab2/mpi_hello_world.c",
+		"/Users/michaelAM 1/Documents/Mcgill/Fall2016/ECSE420/Tutorial_Lab2/mpi_deadlock.c",
+		"/Users/michaelAM 1/Documents/Mcgill/Fall2016/ECSE420/Tutorial_Lab2/mpi_isend_irecv.c",
+		"/Users/michaelAM 1/Documents/Mcgill/Fall2016/ECSE420/Tutorial_Lab2/mpi_no_shared_memory.c",
+		"/Users/michaelAM 1/Documents/Mcgill/Fall2016/ECSE420/Tutorial_Lab2/mpi_probe_test.c",
+		"/Users/michaelAM 1/Documents/Mcgill/Fall2016/ECSE420/Tutorial_Lab2/mpi_reduce_test.c",
+		"/Users/michaelAM 1/Documents/Mcgill/Fall2016/ECSE420/Tutorial_Lab2/mpi_send_recv.c",
+		"/Users/michaelAM 1/Documents/Mcgill/Fall2016/ECSE420/Lab1_ecse420_g7/makefile",
+		"/Users/michaelAM 1/Documents/Mcgill/Fall2016/ECSE420/Lab1_ecse420_g7/test_equality.c",
+		"/Users/michaelAM 1/Documents/Mcgill/Fall2016/ECSE420/Lab1_tutorial/lodepng_test.c",
+		"/Users/michaelAM 1/Documents/Mcgill/Fall2016/ECSE420/Lab1_tutorial/makefile",
+		"/Users/michaelAM 1/Documents/Mcgill/Fall2016/ECSE420/Lab1_tutorial/omp_reduction_test.c",
+		"/Users/michaelAM 1/Documents/Mcgill/Fall2016/ECSE420/Lab1_tutorial/omp_parallel_test.c",
+		"/Users/michaelAM 1/Documents/Mcgill/Fall2016/ECSE420/Lab1_tutorial/lodepng.c",
+		"/Users/michaelAM 1/Documents/Mcgill/Fall2016/ECSE420/Lab1_tutorial/omp_mutex_test.c",
+		"/Users/michaelAM 1/Documents/Mcgill/Fall2016/ECSE420/Lab1_tutorial/omp_parallel_for_test.c",
+		"/Users/michaelAM 1/Documents/Mcgill/Fall2016/ECSE420/Lab_1/test_equality.c",
+		"/Users/michaelAM 1/Downloads/sitemap-2.xml",
+		"/Users/michaelAM 1/Documents/Mcgill/DP_projects",
+		"/Users/michaelAM 1/Documents/Personal/fav_proj",
+		"/Users/michaelAM 1/Documents/Ni2/TDF/HELD_helios_publication_tables_Clean.sql",
+		"/jboss-4.0.5.GA/server/HeliosV5/addit/Scripts/Helios_v5.properties",
+		"/jboss-4.0.5.GA/server/HeliosV5/deploy/postgresql-ds.xml",
+		"/jboss-4.0.5.GA/server/HeliosV5/addit/Scripts/Helios_v5 2.09.52 PM/resources/Helios_v5.properties",
+		"/jboss-4.0.5.GA/server/HeliosV5/addit/Scripts/Helios_v5/resources/Helios_v5.properties",
+		"/jboss-4.0.5.GA/server/HeliosV5/conf/config/jobs.xml",
+		"/jboss-4.0.5.GA/server/HeliosV5/addit/Scripts/Helios_v52/resources/Helios_v5.properties",
+		"/jboss-4.0.5.GA/server/HeliosV5/addit/Scripts/Helios_v5/modules/Helios_v5/src/com/ni2/modules/helios_v5/baseDePublication/Infra.java",
+		"/Users/michaelAM 1/Downloads/Helios_v5.properties",
+		"/Users/michaelAM 1/Documents/Ni2/workspace/Ni2Services/Ni2ApplicationAPI/modules/Ni2ApplicationAPI/web/JSON_library.vtl",
+		"/jboss-4.0.5.GA/server/HeliosV5/conf/CustomFieldsHelios_v5_tdf_reste_ForImports.properties",
+		"/Users/michaelAM 1/Library/Containers/com.apple.mail/Data/Library/Mail Downloads/555F4EC4-A293-4232-B02A-4008929B19B8/CustomFields_tdf_reste_ForImports_gamSMI_8Aout.properties",
+		"/Users/michaelAM 1/Library/Containers/com.apple.mail/Data/Library/Mail Downloads/A994EAF2-1C2C-47D3-AEEA-5201B1E57B1E/Helios_v5CustomFieldsByClassification_gamSMIV3.properties",
+		"/Users/michaelAM 1/Documents/Ni2/workspace/Helios_v5/resources/Helios_v5CustomFieldsByClassification.properties",
+		"/Users/michaelAM 1/Documents/Ni2/workspace/Helios_v5/modules/Helios_v5/datamodel/attributes/CustomFields_tdf_reste_ForImports.properties",
+		"/Users/michaelAM 1/Documents/Personal/money_maam",
+		"/Users/michaelAM 1/Documents/Ni2/workspace/Helios_v5/config.xml",
+		"/Users/michaelAM 1/Documents/Ni2/workspace/Helios_v5/modules/Helios_v5/datamodel/attributes/CustomFields_tdf_locations_ForImports.properties",
+		"/Users/michaelAM 1/Documents/Ni2/workspace/Helios_v5/modules/Helios_v5/features/TDF_Menu_Export.xml",
+		"/Users/michaelAM 1/Documents/Ni2/workspace/Helios_v5/modules/Helios_v5/features/TDF_Menu_Export_ADMIN.xml",
+		"/Users/michaelAM 1/Documents/Ni2/workspace/Helios_v5/modules/Helios_v5/features/TDF_table_EXPORT_ITEM.xml",
+		"/Users/michaelAM 1/Downloads/Helios_v5/modules/Helios_v5/features/Helios_v5_TDF_Menu_Export_ADMIN.xml",
+		"/Users/michaelAM 1/Downloads/FILES/ExportAntennesP3D.java",
+		"/Users/michaelAM 1/Downloads/FILES/ExportAntennesP3DImpl.java",
+		"/Users/michaelAM 1/Downloads/FILES/ExportEquipmentListByProjectImpl.java",
+		"/Users/michaelAM 1/Downloads/FILES/ExportNoeudsImpl.java",
+		"/Users/michaelAM 1/Downloads/FILES/ExportNoeudsiptgImpl.java",
+		"/Users/michaelAM 1/Downloads/FILES/Helios_v5CustomFieldsByClassification.properties",
+		"/Users/michaelAM 1/Library/Containers/com.apple.mail/Data/Library/Mail Downloads/603CAD4F-7BCF-4D34-A38F-899791DA4DDB/BDP_ScriptSQL_250716/DEV/HELD_helios_publication_tables.sql",
+		"/Users/michaelAM 1/Documents/Ni2/workspace/Helios_v5/modules/Helios_v5/src/com/ni2/modules/helios_v5/baseDePublication/ExportSitesDFSQLImpl.java",
+		"/Users/michaelAM 1/Documents/Ni2/workspace/Customers/Helios_v5_EstherJars/ImportPIM/build.xml",
+		"/Users/michaelAM 1/Documents/Ni2/workspace/Helios_v5/modules/Helios_v5/src/com/ni2/modules/helios_v5/baseDePublication/BaseDePublicationImpl.java",
+		"/Users/michaelAM 1/Documents/Ni2/workspace/makeCustomFields/resultFiles/Helios_v5CustomFieldsTable.csv",
+		"/Users/michaelAM 1/Documents/Ni2/workspace/Helios_v5/modules/Helios_v5/src/com/ni2/modules/helios_v5/interfaces/Sycomore/ISServicesSycomoreTNTTiersImpl.java",
+		"/Users/michaelAM 1/Documents/Ni2/workspace/Helios_v5/modules/Helios_v5/src/com/ni2/modules/helios_v5/interfaces/Sycomore/ISServicesSycomoreImpl.java",
+		"/Users/michaelAM 1/Documents/Ni2/workspace/Helios_v5/modules/Helios_v5/src/com/ni2/modules/helios_v5/interfaces/Sycomore/ISServicesSycomoreRadioImpl.java",
+		"/Users/michaelAM 1/Library/Containers/com.apple.mail/Data/Library/Mail Downloads/48E4DF17-B115-4339-96D5-2B6B388DE930/queryItems-ws.html",
+		"/Users/michaelAM 1/Library/Containers/com.apple.mail/Data/Library/Mail Downloads/D2262244-1139-4B63-93C1-86C80CD3AEF7/JSON_library.vtl",
+		"/Users/michaelAM 1/Downloads/sitemap.xml",
+		"/Users/michaelAM 1/Documents/Mcgill/Winter2016/ECSE427/fileSystem/SFS_V8 2/disk_emu.c",
+		"/Users/michaelAM 1/Documents/Ni2/workspace/Helios_v5/modules/Helios_v5/src/com/ni2/modules/helios_v5/interfaces/ImportPIM/IEArticlesImpl.java",
+		"/Users/michaelAM 1/Documents/Ni2/workspace/Helios_v5/modules/Helios_v5/src/com/ni2/modules/helios_v5/export/TNT/ExportTransportTNTImpl.java",
+		"/Users/michaelAM 1/Documents/Ni2/workspace/Helios_v5/modules/Helios_v5/src/com/ni2/modules/helios_v5/export/TNT/ExportTransportImpl.java",
+		"/Users/michaelAM 1/Downloads/Ward_Thomas_Assignment3_260533124/sfs_api.c",
+		"/Users/michaelAM 1/Downloads/changes-2.diff"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 217.0,
+		"where_history":
+		[
+			"/Users/michaelAM 1/Documents/Ni2/workspace/Customers/Helios_v5_EstherJars/ImportPIM",
+			"/Users/michaelAM 1/Documents/Ni2/workspace/Customers/Helios_v5_EstherJars",
+			"/Users/michaelAM 1/Documents/Ni2/workspace/Helios_v5/modules/Helios_v5/src/com/ni2/modules/helios_v5",
+			"/Users/michaelAM 1/Documents/Ni2/TDF/HELIOS-4.1.3_noversionfile_msdos",
+			"/Users/michaelAM 1/Documents/Ni2/workspace/Helios_v5/modules/Helios_v5/src/com/ni2/modules/helios_v5",
+			"/Users/michaelAM 1/Documents/Ni2/TDF/calculatedReports",
+			"/Users/michaelAM 1/Documents/Ni2/workspace/Helios_v5/modules/Helios_v5/src/com/ni2/modules/helios_v5",
+			"/Users/michaelAM 1/Documents/Ni2/workspace/Ni2Services/",
+			"/Users/michaelAM 1/Documents/Ni2/workspace/Ni2Services/AssetManagement/modules/AssetManagement/features",
+			"/Users/michaelAM 1/Documents/Ni2/workspace/Helios_v5",
+			"/Users/michaelAM 1/Documents/Ni2/workspace/Helios_v5/modules/Helios_v5/src/com/ni2/modules/helios_v5/export,/Users/michaelAM 1/Documents/Ni2/workspace/Helios_v5/modules/Helios_v5/src/com/ni2/modules/helios_v5/interfaces",
+			"/Users/michaelAM 1/Documents/Ni2/workspace/Helios_v5/modules/Helios_v5/src/com/ni2/modules/helios_v5/imports/configuration",
+			"/Users/michaelAM 1/Documents/Ni2/TDF/HELIOS-4.1.3_noversionfile_msdos/TDF_VOB1/",
+			"/Projets/EstherTelecom/src/com/tdf/helios/interfaces/esther",
+			"/Users/michaelAM 1/Documents/Ni2/TDF/HELIOS-4.1.3_noversionfile_msdos/TDF_VOB1/HELIOS/Projets/EstherTelecom/src/com/tdf/helios/interfaces/esther",
+			"/Users/michaelAM 1/Documents/Ni2/TDF/HELIOS-4.1.3_noversionfile_msdos/TDF_VOB1/HELIOS/Projets/InterfaceBT2P",
+			"/Applications/Firefox.app/Contents",
+			"/Users/michaelAM/Downloads/Eclipse Installer.app/Contents",
+			"/",
+			"/Users/michaelAM 1/Documents/Ni2/TDF/HELIOS-4.1.3_noversionfile_msdos/TDF_VOB1",
+			"/Users/michaelAM 1/Documents/Ni2/workspace/Helios_v5/modules/Helios_v5/src/com/ni2/modules/helios_v5/export,/Users/michaelAM 1/Documents/Ni2/workspace/Helios_v5/modules/Helios_v5/src/com/ni2/modules/helios_v5/interfaces",
+			"/Users/michaelAM 1/Documents/Ni2/TDF/HELIOS-4.1.3_noversionfile_msdos",
+			"/Users/michaelAM 1/Documents/Ni2/workspace/Helios_v5/modules/Helios_v5/src/com/ni2/modules/helios_v5",
+			"/Users/michaelAM 1/Documents/Ni2/workspace/Helios_v5/modules/Helios_v5/src/com/ni2/modules/helios_v5/export",
+			"/Users/michaelAM 1/Documents/Ni2/workspace/Helios_v5/modules/Helios_v5/src/com/ni2/modules/helios_v5",
+			"/jboss-4.0.5.GA/server/Ni2_5_1_21/deploy/jbossweb-tomcat55.sar/ROOT.war/reports",
+			"/jboss-4.0.5.GA/server/HeliosV5/deploy/jbossweb-tomcat55.sar/ROOT.war/reports",
+			"/jboss-4.0.5.GA/server/HeliosV5/addit/Scripts/Helios_v5/modules/Helios_v5/src/com/ni2/modules/helios_v5/interfaces,/jboss-4.0.5.GA/server/HeliosV5/addit/Scripts/Helios_v5/modules/Helios_v5/src/com/ni2/modules/helios_v5/export",
+			"/jboss-4.0.5.GA/server/HeliosV5/addit/Scripts/Helios_v5/modules/Helios_v5/datamodel/attributes",
+			"/jboss-4.0.5.GA/server/HeliosV5/addit/Scripts/Helios_v5/modules/Helios_v5/src/com/ni2/modules/helios_v5",
+			"/jboss-4.0.5.GA/server/HeliosV5/addit/Scripts/Helios_v5/modules/Helios_v5/src/com/ni2/modules/helios_v5,/Users/michaelAM 1/Documents/Ni2/TDF/calculatedReports",
+			"/jboss-4.0.5.GA/server/HeliosV5/addit/Scripts/Helios_v5/modules/Helios_v5/src/com/ni2/modules/helios_v5",
+			"/jboss-4.0.5.GA/server/HeliosV5/deploy/jbossweb-tomcat55.sar/ROOT.war/Ni2Configuration",
+			"/jboss-4.0.5.GA/server/Ni2_HeliosV5_5/addit/Scripts/Helios_v5/modules/Helios_v5/src/com/ni2/modules/helios_v5",
+			"/jboss-4.0.5.GA/server/Ni2_5_1_21/deploy/jbossweb-tomcat55.sar/ROOT.war/Ni2Configuration",
+			"/Users/michaelAM 1/Documents/Ni2/workspace/Ni2Applications/Customers/Helios_v5",
+			"/jboss-4.0.5.GA/server/Ni2_HeliosV5_5",
+			"/jboss-4.0.5.GA/server/Ni2_HeliosV5_5AWS",
+			"/jboss-4.0.5.GA/server/Ni2_HeliosV5_4/deploy/jbossweb-tomcat55.sar/ROOT.war",
+			"/jboss-4.0.5.GA/server/Ni2_HeliosV5_3/deploy/jbossweb-tomcat55.sar/ROOT.war",
+			"/Users/michaelAM 1/Documents/Ni2/workspace/",
+			"/Users/michaelAM 1/Documents/Ni2/workspace/**.html",
+			"/Users/michaelAM 1/Documents/Ni2/workspace/*.html",
+			"/Users/michaelAM 1/Documents/Ni2/workspace",
+			"/jboss-4.0.5.GA/server/",
+			"/jboss-4.0.5.GA/server/Ni2_HeliosV5_3",
+			"/Applications/Ni2/Ni2_HeliosV5_2/Scripts/Helios_v5/modules/Helios_v5/src/com/ni2/modules/helios_v5/interfaces",
+			"/Users/michaelAM 1/Documents/Ni2/TDF/Helios_v5/modules/Helios_v5/src/com/ni2/modules/helios_v5/interfaces",
+			"/jboss-4.0.5.GA/server/Ni2_HeliosV5",
+			"/jboss-4.0.5.GA/server/Ni2_HeliosV5_2",
+			"/jboss-4.0.5.GA/server/Ni2_HeliosV5_2/deploy/jbossweb-tomcat55.sar/ROOT.war/Ni2Configuration",
+			"/Applications/Ni2/Ni2_HeliosV5/Scripts/Helios_v5/modules/Helios_v5",
+			"/jboss-4.0.5.GA/server/Ni2_HeliosV5",
+			"/Users/michaelAM 1/Documents/Ni2/workspace",
+			"/Applications/Ni2",
+			"/Users/michaelAM 1/Documents/Ni2/workspace",
+			"/jboss-4.0.5.GA",
+			"/Users/michaelAM 1/Documents/Ni2/workspace/Ni2Applications",
+			"/jboss-4.0.5.GA/server/Ni2_5_1_21/deploy/jbossweb-tomcat55.sar/ROOT.war/reports",
+			"/jboss-4.0.5.GA/server/Ni2_5_1_RC17/deploy/jbossweb-tomcat55.sar/ROOT.war/reports",
+			"/Applications/Ni2/Ni2_5_1_RC17/scripts/Helios_v5/modules/Helios_v5/src/com/ni2/modules/helios_v5/export",
+			"/Applications/Ni2/ni2_GA5121_V3/Scripts/Helios_v5/modules/Helios_v5/src/com/ni2/modules/helios_v5/export",
+			"/Applications/Ni2/ni2_GA5121_V3/Scripts/Import_Script_Full",
+			"/Applications/Ni2/ni2_GA5121_V3/Scripts/Helios_v5/modules/Helios_v5/src/com/ni2/modules/helios_v5/export",
+			"/Applications/Ni2/ni2_V5_TDF/Scripts/Helios_v5/modules/Helios_v5/src/com/ni2/modules/helios_v5/export",
+			"/jboss-4.0.5.GA/server/ni2_GA5121_V3/deploy/jbossweb-tomcat55.sar/ROOT.war/Ni2Configuration",
+			"/Applications/Ni2/ni2_GA5121_V3/Scripts/TDF/src/com/ni2/modules/tdf/export",
+			"/jboss-4.0.5.GA/server/ni2_GA5121_V3/deploy/jbossweb-tomcat55.sar/ROOT.war",
+			"/Applications/Ni2/ni2_GA5121_V2,/Applications/Ni2/ni2_GA5121_RAD",
+			"/jboss-4.0.5.GA/server/ni2_GA5121_RAD,/jboss-4.0.5.GA/server/ni2_GA5121_V2",
+			"/jboss-4.0.5.GA/server/ni2_GA5121_RAD/deploy/jbossweb-tomcat55.sar/ROOT.war",
+			"/jboss-4.0.5.GA/server/ni2_GA5121_V2/deploy/jbossweb-tomcat55.sar/ROOT.war/Ni2Configuration",
+			"/Applications/Ni2/ni2_GA5121_V2/Scripts/AssetManagement/modules/AssetManagement/features",
+			"/Users/michaelAM 1/Documents/Ni2/workspace/Ni2Applications/Ni2Services",
+			"/jboss-4.0.5.GA/server/ni2_GA5121_V2/deploy/jbossweb-tomcat55.sar/ROOT.war/Ni2Configuration",
+			"/Users/michaelAM 1/Documents/Ni2/workspace/Ni2Applications/Ni2Services",
+			"/jboss-4.0.5.GA/server/ni2_GA5121_V2/deploy/jbossweb-tomcat55.sar/ROOT.war/Ni2Configuration",
+			"/jboss-4.0.5.GA/server/ni2_GA5121_V2",
+			"/Users/michaelAM 1/Documents/Ni2/AllAppCorr/",
+			"/jboss-4.0.5.GA/server/ni2_GA5121_V2/deploy/jbossweb-tomcat55.sar/ROOT.war/Ni2Configuration",
+			"/Applications/Ni2/ni2_GA5121/Script/RAD",
+			"/jboss-4.0.5.GA/server/ni2_GA5118_V2",
+			"/jboss-4.0.5.GA/server/ni2_GA5118_V2/deploy/jbossweb-tomcat55.sar/ROOT.war/reports",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			";",
+			"return ",
+			"'",
+			"return '",
+			"tINT",
+			"comment",
+			"stringconst",
+			"\"tvar\"",
+			"       ",
+			"’",
+			"    ",
+			"warning: too many arguments in call to 'yyerror'",
+			"double",
+			"%.6d",
+			"%f",
+			"float",
+			"grid_512_512",
+			"grid",
+			"(N/2)+2",
+			"(N/2)-2",
+			"error0",
+			"u_in",
+			"][",
+			"[N/2][N/2]",
+			"cudaMalloc",
+			"convolve",
+			"rectify",
+			"pool",
+			"size",
+			"u",
+			"u2",
+			"u1",
+			"audio",
+			"output.h",
+			"new_size",
+			"w",
+			"rectify",
+			"size",
+			"pool",
+			"new_width",
+			"pool",
+			"index",
+			"idx",
+			"kdx",
+			"jdx",
+			"512",
+			"block_width",
+			"sh_d_in",
+			"k",
+			"j",
+			"i",
+			"BLOCK_WIDTH",
+			"    ",
+			"size",
+			"  ",
+			"\n\t\t",
+			"  ",
+			"k",
+			"print",
+			"Tertiaire",
+			"  ",
+			"    ",
+			"\tprint",
+			"((4*(N-2)/size)+ 4*(N-2) % size > 0)",
+			"((4*(N-2)/size))",
+			"512",
+			"24",
+			"This is iteration 1 in rank 0",
+			"count",
+			"++",
+			"dataR",
+			"  ",
+			"result1",
+			"dataN2",
+			"grid_size",
+			"&&",
+			"grid_size",
+			"pixels",
+			"print",
+			"name",
+			"  ",
+			"■ ",
+			"split",
+			"rank",
+			"update",
+			"new_image",
+			"data",
+			"TAG",
+			"LodePNGColorType",
+			"lodepng_decode_file",
+			"argc",
+			"ni2",
+			"\n  ",
+			"NUMBER",
+			"TIMESTAMP(6)",
+			" BYTE",
+			"VARCHAR2",
+			"batterieType",
+			"CalibreProtectionBTTransfo",
+			"helios-combo",
+			"=Sécurité",
+			"e",
+			"=Sécurité",
+			"Sécurité",
+			"Affichage",
+			"Balisage-Sécurité",
+			"réserve",
+			"Reserve",
+			"Balisage-Sécurité",
+			"Affichage",
+			"typeInfra",
+			"Name",
+			"GEN_RESP_ENTRETIEN",
+			"antiaccescons",
+			"anticaccescons",
+			"BalisageNocturneCom",
+			"Comment1U",
+			"Comments",
+			"Description",
+			"LocalisationReserve",
+			"110.74.148.5",
+			"programme_nom_externe",
+			"serv_id",
+			"prestataire",
+			"serv_id",
+			"service",
+			"RelationPO",
+			"ENTITE REGIONAL"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\\n\");",
+			"printf(\"",
+			"\\n\")",
+			"printf(\"",
+			"tVAR",
+			"\t\t\t",
+			"'",
+			"",
+			"float",
+			"%.6f",
+			"%.6d",
+			"double",
+			"grid_4_4",
+			"grid_512_512",
+			"(N/2)+5",
+			"(N/2)-5",
+			"[ind(N/2,N/2)]",
+			"convolve_sequential",
+			"rectify_sequential",
+			"pool_sequential",
+			"u_out",
+			"u2_in",
+			"u1_in",
+			"convolve",
+			"width",
+			"convolve",
+			"ind",
+			"i",
+			"k",
+			"j",
+			"d_in",
+			"kdx",
+			"jdx",
+			"idx",
+			"block_width",
+			"\t",
+			"((4*(N-2)/size)+ (4*(N-2) % size > 0))",
+			"((4*(N-2)/size) + (4*(N-2) % size > 0))",
+			"(((N-2)*(N-2)/size) + ((N-2)*(N-2) % size > 0))",
+			"countVal",
+			" += 1",
+			"dataR[count]",
+			"\t",
+			"result",
+			"dataN1",
+			"N",
+			"and",
+			"",
+			"data",
+			"\n  \"",
+			"numeric",
+			"timestamp without time zone",
+			"",
+			"character varying",
+			"110.74.131.230",
+			"DB_LOCATION",
+			"{",
+			"Decrochage",
+			"_",
+			"String ",
+			";",
+			"+\"\\\";\\\"\"+",
+			"_",
+			"",
+			"France",
+			" =",
+			"= ",
+			"",
+			".replace(\"\\\"\",\"'\");",
+			";",
+			".replace(\"\\u000a\",\" \").replace(\"\\u000d\",\" \");",
+			"_",
+			"+\"\\\";\\\"\"+",
+			"",
+			"_",
+			"String ",
+			"et.legetAttribute(serviceType,\"Name\");",
+			"_",
+			"serv",
+			"+\"\\\";\\\"\"+",
+			"",
+			"CSA",
+			"_",
+			"+\"\\\";\\\"\"+",
+			"",
+			"   ",
+			"   (",
+			"ExportSitesDFSQL",
+			"et.getAttribute(service,",
+			"et.getAttributeValue(service,",
+			"xxx",
+			"",
+			"'value2'",
+			"'value3'",
+			"'value1'",
+			"/home/ec2-user/ni2",
+			"/home/ec2-user/ni2/",
+			"EEE MMM dd HH:mm:ss zzz yyyy",
+			"pla",
+			"+\";\"+",
+			"ImportPIM",
+			"attributes",
+			";",
+			"ProcessHelper.log(logStream,\"Exception :\" +ex,ex);",
+			"catch (Error e) {\n\t\t\terror = true;",
+			"catch (Exception e) {\n\t\t\terror = true;",
+			"//ProcessHelper.log(logStream",
+			"",
+			",",
+			"com.ni2.cmdb.management.EventValue",
+			"com.ni2.cmdb.configuration.LinkValue",
+			"com.ni2.cmdb.configuration.InterfaceValue",
+			"com.ni2.cmdb.contract.ContractValue",
+			"com.ni2.cmdb.configuration.ApplicationValue",
+			"com.ni2.cmdb.service.ServiceValue",
+			"com.ni2.cmdb.configuration.HostValue",
+			"com.ni2.cmdb.configuration.FunctionValue",
+			"com.ni2.cmdb.actor.ActorValue",
+			"DeviceValue",
+			"AddressValue",
+			"*",
+			"Dernière Date",
+			"DerniereDate",
+			".legetObjectWithMev(le,",
+			"\",\"",
+			"csv",
+			"\",\"",
+			"result"
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "test.txt",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 262,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 241.0
+	},
+	"pinned_build_system": "",
+	"project": "A1_260585955.sublime-project",
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 156.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

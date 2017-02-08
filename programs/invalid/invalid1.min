@@ -1,0 +1,22 @@
+// add a and b
+
+var a: float;
+var b: float;
+var c: float;
+var hello: string;
+var bye: string;
+
+read a;
+b = 4
+hello = "hello";
+bye = "This is a \"complicated\" bye";
+
+c = a + b;
+
+if c then
+	print bye;
+else
+	print hello;
+endif
+
+print c;

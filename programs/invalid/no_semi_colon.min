@@ -1,0 +1,15 @@
+var result: int;
+var current: int;
+var n: int;
+var s: string;
+
+current = 1
+s = "\"This is a bad program!\", he said. \n";
+while n do
+	// updating current value
+	current = current * n
+	n = n-1
+done
+
+print s;
+print "The result is :" + ;

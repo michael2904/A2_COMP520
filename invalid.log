@@ -1,0 +1,8 @@
+./programs/invalid/bad_comment.min: INVALID: syntax error before -#-
+./programs/invalid/invalid1.min: INVALID: syntax error before -hello- --> error: syntax error
+./programs/invalid/invalid2.min: INVALID: syntax error before -bye- --> error: syntax error
+./programs/invalid/invalid3.min: INVALID: syntax error before -- --> error: syntax error
+./programs/invalid/invalid4.min: INVALID: syntax error before -res- --> error: syntax error
+./programs/invalid/invalid5.min: INVALID: syntax error before -done- --> error: syntax error
+./programs/invalid/invalid6.min: INVALID: syntax error before -1- --> error: syntax error
+./programs/invalid/invalid7.min: INVALID: syntax error before -.-
