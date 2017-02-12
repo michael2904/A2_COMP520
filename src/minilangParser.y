@@ -15,18 +15,13 @@
 %union {
 	int intconst;
 	float floatconst;
+	char *stringconstid;
 	char *stringconst;
-	struct PROG *prog;
-	struct DECL *dcl;
-	struct STMT *stmt;
-	struct IDENT *ident;
-	struct EXP *exp;
-	struct TYPES *type;
 }
 
 %token <intconst> tINTCONST
 %token <floatconst> tFLOATCONST
-%token <stringconst> tIDENTIFIER
+%token <stringconstid> tIDENTIFIER
 %token <stringconst> tSTRINGCONST
 %token tVAR
 %token tWHILE
@@ -44,103 +39,101 @@
 %token UMINUS
 %token tERROR
 
-%type <prog> program 
-%type <stmt> stmts stmt read print assign ifst midIf whileloop
-%type <dcl> dcls dcl
-%type <exp> exp
-%type <type> type
+%type <program> theProgram program
 
-%start program
+
+%start theProgram
 %left '+' '-'
 %left '*' '/'
 %left UMINUS
 
 %%
 
+theProgram : program
+				{ theprogram = $1;}
+;
+
 program : 	dcls  stmts
-				{ theprogram = makePROG ($1,$2,@1.first_line);}
+				{ $$ = makePROG ($1);}
 ;
 
 dcls :		dcl dcls
-				{ $$ = makePROGdcls ($1,$2,@1.first_line);}
+				{ $$ = makePROGdcls ($1,$2);}
 			|
-				{$$ = NULL;}
 ;
 
-dcl : 		tVAR tIDENTIFIER ':' type ';'
-				{ $$ = makePROGdcl (makePROGid($2,@1.first_line),$4,@1.first_line);}
+dcl : tVAR tIDENTIFIER ':' type ';'
+	{ $$ = makePROGdcl ($2,$4);}
 ;
 
 type :		tINT
-				{$$ = makePROGdclInt();}
+				{$$ = makePROFdlctype($1);}
 			| tFLOAT
-				{$$ = makePROGdclFloat();}
+				{$$ = makePROFdlctype($1);}
 			| tSTRING
-				{$$ = makePROGdclString();}
+				{$$ = makePROFdlctype($1);}
 ;
 
 stmts : 	stmt stmts 
-				{$$ = makePROGstmts ($1,$2,@1.first_line);}
+				{ $$ = makePROGstmts ($1,$2);}
 			|
-				{$$ = NULL;}
 ;
 
 stmt :		read
-				{$$ = $1;}
+				{$$ = makePROGstmtread($1);}
 			|print
-				{$$ = $1;}
+				{$$ = makePROGstmtprint($1);}
 			|assign
-				{$$ = $1;}
+				{$$ = makePROGstmtassign($1);}
 			|ifst
-				{$$ = $1;}
+				{$$ = makePROGstmtifst($1);}
 			|whileloop
-				{$$ = $1;}
+				{$$ = makePROGstmtwhileloop($1);}
 ;
 
 read :		tREAD tIDENTIFIER ';'
-				{$$ = makePROGstmtread(makePROGid($2,@1.first_line),@1.first_line);}
+				{$$ = makePROGstmtreadid($2);}
 ;
 
 print :		tPRINT exp ';'
-				{$$ = makePROGstmtprint($2,@1.first_line);}
+				{$$ = makePROGstmtprintexp($2);}
 ;
 
 assign :	tIDENTIFIER '=' exp ';'
-				{$$ = makePROGstmtassign(makePROGid($1,@1.first_line),$3,@2.first_line);}
+				{$$ = makePROGstmtassignexp($1,$3);}
 ;
 
 ifst :		tIF exp tTHEN stmts midIf tENDIF
-				{$$ = makePROGstmtif($2,$4,$5,@1.first_line);}
+				{$$ = makePROGstmtifstexp($2,$4,$5);}
 ;
 
 midIf :		tELSE stmts
-				{$$ = $2;}
+				{$$ = makePROGstmtmidif($2);}
 			|
-				{$$ = NULL;}
 ;
 
 whileloop :	tWHILE exp tDO stmts tDONE
-				{$$ = makePROGstmtwhileloop($2,$4,@1.first_line);}
+				{$$ = makePROGstmtwhileloopexp($2,$4);}
 ;
 
 exp :		tIDENTIFIER
-				{$$ = makePROGidentifier(makePROGid($1,@1.first_line),@1.first_line);}
+				{$$ = makePROGid($1);}
 			| tINTCONST
-				{$$ = makePROGintconst($1,@1.first_line);}
+				{$$ = makePROGintconst($1);}
 			| tFLOATCONST
-				{$$ = makePROGfloatconst($1,@1.first_line);}
+				{$$ = makePROGfloatconst($1);}
 			| tSTRINGCONST
-				{$$ = makePROGstringconst($1,@1.first_line);}
+				{$$ = makePROGstringconst($1);}
 			| exp '*' exp 
-				{$$ = makePROGtimes($1,$3,@2.first_line);}
+				{$$ = makePROGitimes($1);}
 			| exp '/' exp 
-				{$$ = makePROGdiv($1,$3,@2.first_line);}
+				{$$ = makePROGdiv($1);}
 			| exp '+' exp 
-				{$$ = makePROGplus($1,$3,@2.first_line);}
+				{$$ = makePROGplus($1);}
 			| exp '-' exp
-				{$$ = makePROGminus($1,$3,@2.first_line);}
+				{$$ = makePROGminus($1);}
 			| '-' exp %prec UMINUS
-				{$$ = makePROGunary($2,@1.first_line);}
+				{$$ = makePROGuminus($1);}
 			| '(' exp ')' 
 				{$$ = $2;}
 ;

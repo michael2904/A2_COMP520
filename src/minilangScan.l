@@ -2,17 +2,12 @@
 	#include "y.tab.h"  /* for exp.y types */
 	#include <string.h> /* for strlen */
 	#include <stdlib.h> /* for malloc and atoi */
-
-	#define YY_USER_ACTION yylloc.first_line = yylloc.last_line = yylineno;
-	#define YY_NO_INPUT
 %}
 
 DIGIT		[0-9]
 ALPHA		[a-zA-Z_]
 
 %option noyywrap
-%option nounput
-%option yylineno
 
 %%
 
@@ -54,8 +49,8 @@ ALPHA		[a-zA-Z_]
 }
 
 [a-zA-Z_][a-zA-Z0-9_]* {
-			yylval.stringconst = (char *) malloc (strlen (yytext) + 1);
-			sprintf (yylval.stringconst, "%s", yytext);
+			yylval.stringconstid = (char *) malloc (strlen (yytext) + 1);
+			sprintf (yylval.stringconstid, "%s", yytext);
 			return tIDENTIFIER;
 }
 
@@ -68,8 +63,8 @@ ALPHA		[a-zA-Z_]
 "//".*		/* ignore */
 
 .			{
-				printf("INVALID: (line %d) unknown character '%s'\n", yylineno, yytext);
-				exit(1);
+			printf ("INVALID: syntax error before -%s-\n", yytext); 
+			exit(1);
 			}
 
 %%
