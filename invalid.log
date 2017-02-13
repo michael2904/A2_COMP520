@@ -1,67 +1,211 @@
-./programs/invalid/bad_comment.min: INVALID: (line 1) unknown character '#'
-./programs/invalid/bad_declaration_none.min: ./run.sh: line 8: 89778 Segmentation fault: 11  ./src/minilang < "$1"
-./programs/invalid/bad_declaration_repeated.min: ./run.sh: line 8: 89784 Segmentation fault: 11  ./src/minilang < "$1"
+./programs/invalid/bad_comment.min: reading file ./programs/invalid/bad_comment.min
+INVALID: (line 1) unknown character '#'
+./programs/invalid/bad_declaration_none.min: reading file ./programs/invalid/bad_declaration_none.min
+prettyFilePath - ./pretty/invalid/bad_declaration_none.pretty.min----
+symbolFilePath - ./symbol/invalid/bad_declaration_none.symbol.txt----
+generatedFilePath - ./generated/invalid/bad_declaration_none.c----
+./pretty/invalid/bad_declaration_none.pretty.min./symbol/invalid/bad_declaration_none.symbol.txt./generated/invalid/bad_declaration_none.c
+x = 5;
+This symbol "x" has no been defined.
+./programs/invalid/bad_declaration_repeated.min: reading file ./programs/invalid/bad_declaration_repeated.min
+prettyFilePath - ./pretty/invalid/bad_declaration_repeated.pretty.min----
+symbolFilePath - ./symbol/invalid/bad_declaration_repeated.symbol.txt----
+generatedFilePath - ./generated/invalid/bad_declaration_repeated.c----
+./pretty/invalid/bad_declaration_repeated.pretty.min
+var x : int;
+var x : float;
+---- This identifier ( "x") was already declared at 2 ----
 ./programs/invalid/bad_float.min: INVALID: syntax error before -1.0111- --> error: syntax error
+reading file ./programs/invalid/bad_float.min
 ./programs/invalid/bad_if.min: INVALID: syntax error before -- --> error: syntax error
-./programs/invalid/bad_string.min: INVALID: (line 7) unknown character ','
-./programs/invalid/bad_type_assignment.min: ./run.sh: line 8: 89808 Segmentation fault: 11  ./src/minilang < "$1"
-./programs/invalid/bad_type_int_string.min: ./run.sh: line 8: 89814 Segmentation fault: 11  ./src/minilang < "$1"
-./programs/invalid/bad_type_string_division.min: ./run.sh: line 8: 89820 Segmentation fault: 11  ./src/minilang < "$1"
-./programs/invalid/bad_type_while.min: ./run.sh: line 8: 89826 Segmentation fault: 11  ./src/minilang < "$1"
+reading file ./programs/invalid/bad_if.min
+./programs/invalid/bad_string.min: reading file ./programs/invalid/bad_string.min
+INVALID: (line 7) unknown character ','
+./programs/invalid/bad_type_assignment.min: reading file ./programs/invalid/bad_type_assignment.min
+prettyFilePath - ./pretty/invalid/bad_type_assignment.pretty.min----
+symbolFilePath - ./symbol/invalid/bad_type_assignment.symbol.txt----
+generatedFilePath - ./generated/invalid/bad_type_assignment.c----
+./pretty/invalid/bad_type_assignment.pretty.min
+var x : int;
+x = 5.000000;
+This symbol has a wrong type. not int
+./programs/invalid/bad_type_int_string.min: reading file ./programs/invalid/bad_type_int_string.min
+prettyFilePath - ./pretty/invalid/bad_type_int_string.pretty.min----
+symbolFilePath - ./symbol/invalid/bad_type_int_string.symbol.txt----
+generatedFilePath - ./generated/invalid/bad_type_int_string.c----
+./pretty/invalid/bad_type_int_string.pretty.min
+var x : int;
+var s : string;
+s = "Hello";
+while x do
+	x = (x+s);
+done
+This symbol has a wrong type.
+./programs/invalid/bad_type_string_division.min: reading file ./programs/invalid/bad_type_string_division.min
+prettyFilePath - ./pretty/invalid/bad_type_string_division.pretty.min----
+symbolFilePath - ./symbol/invalid/bad_type_string_division.symbol.txt----
+generatedFilePath - ./generated/invalid/bad_type_string_division.c----
+./pretty/invalid/bad_type_string_division.pretty.min
+var s : string;
+s = (s/10);
+This symbol has a wrong type.
+./programs/invalid/bad_type_while.min: reading file ./programs/invalid/bad_type_while.min
+prettyFilePath - ./pretty/invalid/bad_type_while.pretty.min----
+symbolFilePath - ./symbol/invalid/bad_type_while.symbol.txt----
+generatedFilePath - ./generated/invalid/bad_type_while.c----
+./pretty/invalid/bad_type_while.pretty.min
+var x : float;
+while x do
+	x = (x-x);
+done
+Type Check exception at line 3. 
 ./programs/invalid/bad_while.min: INVALID: syntax error before -docurrent- --> error: syntax error
-./programs/invalid/comment1.min: INVALID: (line 2) unknown character '#'
+reading file ./programs/invalid/bad_while.min
+./programs/invalid/comment1.min: reading file ./programs/invalid/comment1.min
+INVALID: (line 2) unknown character '#'
 ./programs/invalid/decl1.min: INVALID: syntax error before -;- --> error: syntax error
+reading file ./programs/invalid/decl1.min
 ./programs/invalid/decl2.min: INVALID: syntax error before -:- --> error: syntax error
+reading file ./programs/invalid/decl2.min
 ./programs/invalid/decl3.min: INVALID: syntax error before -- --> error: syntax error
+reading file ./programs/invalid/decl3.min
 ./programs/invalid/decl4.min: INVALID: syntax error before -:- --> error: syntax error
+reading file ./programs/invalid/decl4.min
 ./programs/invalid/decl5.min: INVALID: syntax error before -FLOAT- --> error: syntax error
+reading file ./programs/invalid/decl5.min
 ./programs/invalid/decl6.min: INVALID: syntax error before -=- --> error: syntax error
+reading file ./programs/invalid/decl6.min
 ./programs/invalid/decl7.min: INVALID: syntax error before -var- --> error: syntax error
-./programs/invalid/decl8.min: INVALID: (line 2) unknown character '#'
-./programs/invalid/expr1.min: INVALID: (line 2) unknown character '~'
-./programs/invalid/expr2.min: INVALID: (line 2) unknown character '%'
+reading file ./programs/invalid/decl7.min
+./programs/invalid/decl8.min: reading file ./programs/invalid/decl8.min
+INVALID: (line 2) unknown character '#'
+./programs/invalid/expr1.min: reading file ./programs/invalid/expr1.min
+INVALID: (line 2) unknown character '~'
+./programs/invalid/expr2.min: reading file ./programs/invalid/expr2.min
+INVALID: (line 2) unknown character '%'
 ./programs/invalid/expr3.min: INVALID: syntax error before -;- --> error: syntax error
+reading file ./programs/invalid/expr3.min
 ./programs/invalid/expr4.min: INVALID: syntax error before -)- --> error: syntax error
+reading file ./programs/invalid/expr4.min
 ./programs/invalid/expr5.min: INVALID: syntax error before -)- --> error: syntax error
+reading file ./programs/invalid/expr5.min
 ./programs/invalid/expr6.min: INVALID: syntax error before -+- --> error: syntax error
+reading file ./programs/invalid/expr6.min
 ./programs/invalid/if1.min: INVALID: syntax error before -- --> error: syntax error
+reading file ./programs/invalid/if1.min
 ./programs/invalid/if2.min: INVALID: syntax error before -print- --> error: syntax error
+reading file ./programs/invalid/if2.min
 ./programs/invalid/if3.min: INVALID: syntax error before -end- --> error: syntax error
+reading file ./programs/invalid/if3.min
 ./programs/invalid/if4.min: INVALID: syntax error before -=- --> error: syntax error
+reading file ./programs/invalid/if4.min
 ./programs/invalid/ifelse1.min: INVALID: syntax error before -print- --> error: syntax error
+reading file ./programs/invalid/ifelse1.min
 ./programs/invalid/ifelse2.min: INVALID: syntax error before -- --> error: syntax error
+reading file ./programs/invalid/ifelse2.min
 ./programs/invalid/ifelse3.min: INVALID: syntax error before -;- --> error: syntax error
+reading file ./programs/invalid/ifelse3.min
 ./programs/invalid/ifwhile1.min: INVALID: syntax error before -endif- --> error: syntax error
+reading file ./programs/invalid/ifwhile1.min
 ./programs/invalid/ifwhile2.min: INVALID: syntax error before -done- --> error: syntax error
+reading file ./programs/invalid/ifwhile2.min
 ./programs/invalid/invalid1.min: INVALID: syntax error before -hello- --> error: syntax error
+reading file ./programs/invalid/invalid1.min
 ./programs/invalid/invalid2.min: INVALID: syntax error before -bye- --> error: syntax error
+reading file ./programs/invalid/invalid2.min
 ./programs/invalid/invalid3.min: INVALID: syntax error before -- --> error: syntax error
+reading file ./programs/invalid/invalid3.min
 ./programs/invalid/invalid4.min: INVALID: syntax error before -res- --> error: syntax error
-./programs/invalid/invalid5.min: ./run.sh: line 8: 90006 Segmentation fault: 11  ./src/minilang < "$1"
+reading file ./programs/invalid/invalid4.min
+./programs/invalid/invalid5.min: reading file ./programs/invalid/invalid5.min
+prettyFilePath - ./pretty/invalid/invalid5.pretty.min----
+symbolFilePath - ./symbol/invalid/invalid5.symbol.txt----
+generatedFilePath - ./generated/invalid/invalid5.c----
+./pretty/invalid/invalid5.pretty.min
+var a : float;
+var B : float;
+var res : float;
+var Val : float;
+var _doneString : string;
+var _do_neString : string;
+a = 9.300000;
+read B;
+res = ((a*B)+B);
+while res do
+	res = (res+-);
+done
+_doneString = "It is \" a \$ test";
+doneString = "done";
+print _doneString;
+Type Check exception at line 16. 
 ./programs/invalid/invalid6.min: INVALID: syntax error before -1- --> error: syntax error
-./programs/invalid/invalid7.min: INVALID: (line 1) unknown character '.'
-./programs/invalid/invalid8.min: ./run.sh: line 8: 90024 Segmentation fault: 11  ./src/minilang < "$1"
+reading file ./programs/invalid/invalid6.min
+./programs/invalid/invalid7.min: reading file ./programs/invalid/invalid7.min
+INVALID: (line 1) unknown character '.'
+./programs/invalid/invalid8.min: reading file ./programs/invalid/invalid8.min
+prettyFilePath - ./pretty/invalid/invalid8.pretty.min----
+symbolFilePath - ./symbol/invalid/invalid8.symbol.txt----
+generatedFilePath - ./generated/invalid/invalid8.c----
+./pretty/invalid/invalid8.pretty.min
+var a : float;
+var b : float;
+var res : float;
+var val : float;
+var doneString : string;
+read a;
+read b;
+res = ((a*b)+b);
+while res do
+	res = (res+-);
+done
+doneString = "It is done";
+print doneString;
+Type Check exception at line 14. 
 ./programs/invalid/literal1.min: INVALID: syntax error before -1- --> error: syntax error
+reading file ./programs/invalid/literal1.min
 ./programs/invalid/literal2.min: INVALID: syntax error before -1.3- --> error: syntax error
-./programs/invalid/literal3.min: INVALID: (line 2) unknown character '.'
-./programs/invalid/literal4.min: INVALID: (line 2) unknown character '.'
+reading file ./programs/invalid/literal2.min
+./programs/invalid/literal3.min: reading file ./programs/invalid/literal3.min
+INVALID: (line 2) unknown character '.'
+./programs/invalid/literal4.min: reading file ./programs/invalid/literal4.min
+INVALID: (line 2) unknown character '.'
 ./programs/invalid/literal5.min: INVALID: syntax error before -0- --> error: syntax error
+reading file ./programs/invalid/literal5.min
 ./programs/invalid/literal6.min: INVALID: syntax error before -- --> error: syntax error
+reading file ./programs/invalid/literal6.min
 ./programs/invalid/literal8.min: INVALID: syntax error before -world- --> error: syntax error
+reading file ./programs/invalid/literal8.min
 ./programs/invalid/no_semi_colon.min: INVALID: syntax error before -s- --> error: syntax error
+reading file ./programs/invalid/no_semi_colon.min
 ./programs/invalid/stmt1.min: INVALID: syntax error before -- --> error: syntax error
+reading file ./programs/invalid/stmt1.min
 ./programs/invalid/stmt10.min: INVALID: syntax error before -*- --> error: syntax error
+reading file ./programs/invalid/stmt10.min
 ./programs/invalid/stmt2.min: INVALID: syntax error before -- --> error: syntax error
+reading file ./programs/invalid/stmt2.min
 ./programs/invalid/stmt3.min: INVALID: syntax error before -- --> error: syntax error
+reading file ./programs/invalid/stmt3.min
 ./programs/invalid/stmt4.min: INVALID: syntax error before -;- --> error: syntax error
+reading file ./programs/invalid/stmt4.min
 ./programs/invalid/stmt5.min: INVALID: syntax error before -;- --> error: syntax error
+reading file ./programs/invalid/stmt5.min
 ./programs/invalid/stmt6.min: INVALID: syntax error before -18- --> error: syntax error
+reading file ./programs/invalid/stmt6.min
 ./programs/invalid/stmt7.min: INVALID: syntax error before -(- --> error: syntax error
+reading file ./programs/invalid/stmt7.min
 ./programs/invalid/stmt8.min: INVALID: syntax error before -;- --> error: syntax error
+reading file ./programs/invalid/stmt8.min
 ./programs/invalid/stmt9.min: INVALID: syntax error before -3- --> error: syntax error
+reading file ./programs/invalid/stmt9.min
 ./programs/invalid/while1.min: INVALID: syntax error before -print- --> error: syntax error
+reading file ./programs/invalid/while1.min
 ./programs/invalid/while2.min: INVALID: syntax error before -- --> error: syntax error
+reading file ./programs/invalid/while2.min
 ./programs/invalid/while3.min: INVALID: syntax error before -print- --> error: syntax error
+reading file ./programs/invalid/while3.min
 ./programs/invalid/while4.min: INVALID: syntax error before -do- --> error: syntax error
+reading file ./programs/invalid/while4.min
 ./programs/invalid/while5.min: INVALID: syntax error before -;- --> error: syntax error
+reading file ./programs/invalid/while5.min
 ./programs/invalid/while6.min: INVALID: syntax error before -=- --> error: syntax error
+reading file ./programs/invalid/while6.min

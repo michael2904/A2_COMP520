@@ -1,3 +1,6 @@
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
 #include "memory.h"
 #include "tree.h"
  
@@ -130,7 +133,9 @@ EXP *makePROGstringconst(char *stringconst, int lineno) {
 	e = NEW(EXP);
 	e->lineno = lineno;
 	e->kind = stringconstK;
-	e->val.stringconstE = stringconst;
+	char *substr = (char*) malloc(strlen(stringconst));
+	strncpy(substr,stringconst+1,strlen(stringconst)-2);
+	e->val.stringconstE = substr;
 	return e;
 }
 

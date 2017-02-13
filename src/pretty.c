@@ -2,8 +2,12 @@
 #include "pretty.h"
  
 int ind;
+extern char* prettyFilePath;
+FILE *prettyFile;
 
 void prettyPROG(PROG *prog){
+	printf("%s\n",prettyFilePath);
+	prettyFile = fopen(prettyFilePath, "w");
 	if(prog != NULL){
 		ind = 0;
 		prettyDECL(prog->decls);
@@ -111,7 +115,7 @@ void prettyEXP(EXP *e){
 				printf("%f",e->val.floatconstE);
 				break;
 			case stringconstK:
-				printf("%s",e->val.stringconstE);
+				printf("\"%s\"",e->val.stringconstE);
 				break;
 			case timesK:
 				printf("(");

@@ -2,12 +2,14 @@
 
 
 void generateProg(PROG *prog){
+	printf("#include <stdio.h>\n#include <stdlib.h>\nvoid main(){\n");
 	if(prog->decls != NULL){
 		generateDcls(prog->decls);
 	}
 	if(prog->stmts != NULL){
 		generateStmts(prog->stmts);
 	}
+	printf("}\n");
 
 }
 
@@ -15,13 +17,13 @@ void generateDcls(DECL *decl){
 	while(decl != NULL){
 		switch(decl->kind){
 			case intK:
-				//printf("int %s;\n",decl->identD->ident);
+				printf("int %s;\n",decl->identD->ident);
 				break;
 			case floatK:
-				//printf("float %s;\n",decl->identD->ident);
+				printf("float %s;\n",decl->identD->ident);
 				break;
 			case stringK:
-				//printf("char %s[4096];\n",decl->identD->ident);
+				printf("char %s[4096];\n",decl->identD->ident);
 				break;
 		}
 		decl = decl->next;
@@ -34,62 +36,68 @@ void generateStmts(STMT *stmts){
 			case readStmt:
 				switch(stmts->val.readU.readId->type){
 					case intK:
-						//printf("scanf(\"%%d\", &%s);\n",stmts->val.readU.readId->ident);
+						printf("scanf(\"%%d\", &%s);\n",stmts->val.readU.readId->ident);
 						break;
 					case floatK:
-						//printf("scanf(\"%%f\", &%s);\n",stmts->val.readU.readId->ident);
+						printf("scanf(\"%%f\", &%s);\n",stmts->val.readU.readId->ident);
 						break;
 					case stringK:
-						//printf("scanf(\"%%s\", %s);\n",stmts->val.readU.readId->ident);
+						printf("scanf(\"%%s\", %s);\n",stmts->val.readU.readId->ident);
 						break;
 				}
 				break;
 			case printStmt:
 				switch(stmts->val.printU.printExp->type){
 					case intK:
-						//printf("printf(\"%%d\", ");
+						printf("printf(\"%%d\", ");
 						generateExpression(stmts->val.printU.printExp);
-						//printf(");\n");
+						printf(");\n");
 						break;
 					case floatK:
-						//printf("printf(\"%%f\", ");
+						printf("printf(\"%%f\", ");
 						generateExpression(stmts->val.printU.printExp);
-						//printf(");\n");
+						printf(");\n");
 						break;
 					case stringK:
-						//printf("printf(\"%%s\", ");
+						printf("printf(\"%%s\", ");
 						generateExpression(stmts->val.printU.printExp);
-						//printf(");\n");
+						printf(");\n");
 						break;
 				}
 				break;
 			case assignStmt:
-				//printf("%s = ",stmts->val.assignU.identId->ident);
+				printf("%s = ",stmts->val.assignU.identId->ident);
+				if(stmts->val.assignU.assignExp->type == stringK){
+					printf("\"");
+				}
 				generateExpression(stmts->val.assignU.assignExp);
-				//printf(";\n");
+				if(stmts->val.assignU.assignExp->type == stringK){
+					printf("\"");
+				}
+				printf(";\n");
 				break;
 			case ifStmt:
-				//printf("if (");
+				printf("if (");
 				generateExpression(stmts->val.ifU.condExp);
-				//printf(") {\n");
+				printf(") {\n");
 				generateStmts(stmts->val.ifU.ifStmt);
-				//printf("}\n");
+				printf("}\n");
 				break;
 			case ifseStmt:
-				//printf("if (");
+				printf("if (");
 				generateExpression(stmts->val.ifU.condExp);
-				//printf(") {\n");
+				printf(") {\n");
 				generateStmts(stmts->val.ifU.ifStmt);
-				//printf("} else {\n");
+				printf("} else {\n");
 				generateStmts(stmts->val.ifseU.ifseStmt);
-				//printf("}\n");
+				printf("}\n");
 				break;
 			case whileStmt:
-				//printf("while (");
+				printf("while (");
 				generateExpression(stmts->val.whileU.condExp);
-				//printf(") {\n");
+				printf(") {\n");
 				generateStmts(stmts->val.whileU.bodyStmt);
-				//printf("}\n");
+				printf("}\n");
 				break;
 		}
 		stmts = stmts->next;
@@ -100,42 +108,58 @@ void generateStmts(STMT *stmts){
 void generateExpression(EXP *exp){
 	SYMBOL *symb;
 	if(exp != NULL){
-		// //printf("exp");
+		// printf("exp");
 		switch(exp->kind){
 			case idK:
-				//printf("%s",exp->val.ident->ident);
+				printf("%s",exp->val.ident->ident);
 				break;
 			case intconstK:
-				//printf("%d",exp->val.intconstE);
+				printf("%d",exp->val.intconstE);
 				break;
 			case floatconstK:
-				//printf("%f",exp->val.floatconstE);
+				printf("%f",exp->val.floatconstE);
 				break;
 			case stringconstK:
-				//printf("%s",exp->val.stringconstE);
+				printf("%s",exp->val.stringconstE);
 				break;
 			case timesK:
-				generateExpression(exp->val.timesE.left);
-				//printf(" * ");
-				generateExpression(exp->val.timesE.right);
+				if(exp->val.timesE.left->type == intK && exp->val.timesE.right->type == stringK ){
+					int i;
+					for(i = 0; i<exp->val.timesE.left->val.intconstE;i++){
+						printf("%s",exp->val.timesE.right->val.stringconstE);
+					}
+				}else if(exp->val.timesE.left->type == stringK && exp->val.timesE.right->type == intK){
+					int i;
+					for(i = 0; i<exp->val.timesE.right->val.intconstE;i++){
+						printf("%s",exp->val.timesE.left->val.stringconstE);
+					}
+				}else{
+					generateExpression(exp->val.timesE.left);
+					printf(" * ");
+					generateExpression(exp->val.timesE.right);
+				}
 				break;
 			case divK:
 				generateExpression(exp->val.divE.left);
-				//printf(" / ");
+				printf(" / ");
 				generateExpression(exp->val.divE.right);
 				break;
 			case plusK:
-				generateExpression(exp->val.plusE.left);
-				//printf(" + ");
-				generateExpression(exp->val.plusE.right);
+				if(exp->val.plusE.left->type == stringK && exp->val.plusE.right->type == stringK ){
+					printf("%s%s",exp->val.plusE.left->val.stringconstE,exp->val.plusE.right->val.stringconstE);
+				}else{
+					generateExpression(exp->val.plusE.left);
+					printf(" + ");
+					generateExpression(exp->val.plusE.right);
+				}
 				break;
 			case minusK:
 				generateExpression(exp->val.minusE.left);
-				//printf(" - ");
+				printf(" - ");
 				generateExpression(exp->val.minusE.right);
 				break;
 			case unaryK:
-				//printf(" - ");
+				printf(" - ");
 				generateExpression(exp->val.unary);
 				break;
 		}
