@@ -13,11 +13,11 @@ PROG *theprogram;
 SymbolTable *symbolTable;
 int lineno;
 char *prettyFilePath = NULL;
-char *symbolFilePath;
-char *generateFilePath;
+char *symbolFilePath = NULL;
+char *generatedFilePath = NULL;
 
 
-void prepFilaPath(char *filePath){
+void prepFilePath(char *filePath){
 	char *path;
 	char *token;
 	char *name;
@@ -29,30 +29,30 @@ void prepFilaPath(char *filePath){
 		name = token;
 		i++;
 	}
-	// printf("%s -- %s-----\n",type,name );
 	free(path);
 	name = strsep(&name, ".");
 	char prettyFileS[10]="./pretty/";
 	char prettyFileE[12]=".pretty.min";
-	int prettyFileSize= strlen(prettyFileS)+strlen(type)+1+strlen(name)+strlen(prettyFileE);
+	int prettyFileSize= strlen(prettyFileS)+strlen(type)+2+strlen(name)+strlen(prettyFileE);
 	prettyFilePath = (char *)malloc(prettyFileSize* sizeof(char));
 	sprintf(prettyFilePath, "%s%s/%s%s", prettyFileS,type,name,prettyFileE);
 	// prettyFilePath[prettyFileSize] = '\0';
-	// printf("prettyFilePath : %lu + %lu + %lu + %lu + 1= %d //--00 %s -%lu---\n",strlen(prettyFileS),strlen(type),strlen(name),strlen(prettyFileE),prettyFileSize,prettyFilePath,strlen(prettyFilePath));
 	printf("prettyFilePath - %s----\n",prettyFilePath );
 
 	char symbolFileS[10]="./symbol/";
 	char symbolFileE[12]=".symbol.txt";
-	int symbolFileSize= strlen(symbolFileS)+strlen(type)+1+strlen(name)+strlen(symbolFileE);
-	char *symbolFilePath = (char *)malloc(symbolFileSize);
+	int symbolFileSize= strlen(symbolFileS)+strlen(type)+2+strlen(name)+strlen(symbolFileE);
+	symbolFilePath = (char *)malloc(symbolFileSize* sizeof(char));
 	sprintf(symbolFilePath, "%s%s/%s%s", symbolFileS,type,name,symbolFileE);
+	// symbolFilePath[symbolFileSize] = '\0';
 	printf("symbolFilePath - %s----\n",symbolFilePath );
 
 	char generatedFileS[13]="./generated/";
 	char generatedFileE[3]=".c";
-	int generatedFileSize= strlen(generatedFileS)+strlen(type)+1+strlen(name)+strlen(generatedFileE);
-	char *generatedFilePath = (char *)malloc(generatedFileSize);
+	int generatedFileSize= strlen(generatedFileS)+strlen(type)+2+strlen(name)+strlen(generatedFileE);
+	generatedFilePath = (char *)malloc(generatedFileSize* sizeof(char));
 	sprintf(generatedFilePath, "%s%s/%s%s", generatedFileS,type,name,generatedFileE);
+	// generatedFilePath[generatedFileSize] = '\0';
 	printf("generatedFilePath - %s----\n",generatedFilePath );
 
 }
@@ -68,7 +68,10 @@ int main(int argc,char *argv[]){
 	}
 	result = yyparse ();
 	fclose(yyin);
-	prepFilaPath(argv[1]);
+	prepFilePath(argv[1]);
+	printf("prettyFilePath - %s----\n",prettyFilePath );
+	printf("symbolFilePath - %s----\n",symbolFilePath );
+	printf("generatedFilePath - %s----\n",generatedFilePath );
 	prettyPROG(theprogram);
 	makeProgSymbolTable(theprogram);
 	typeCheckProg(theprogram);

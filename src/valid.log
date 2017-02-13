@@ -1,0 +1,23 @@
+-bash: ./run.sh: No such file or directory
+reading file ./../programs/valid/expr6.min
+in prepFilaPath -----
+before strdup -----
+in prepFilaPath -----
+(null) -- .
+(null) -- ..
+.. -- programs
+programs -- valid
+valid -- expr6.min
+prettyFilePath - ./../pretty/valid/expr6.pretty.min
+prettyFilePath - ./../pretty/valid/expr6.pretty.min
+var x : float;
+x = ((0+0.010000)+(0.010000-(-/-)));
+prettyPROG - 
+#include <stdio.h>
+#include <stdlib.h>
+void main(){
+float x;
+x = 0 + 0.010000 + 0.010000 -  - 1.098240 /  - 0.013210 *  -  -  -  - 902;
+}
+
+VALID 

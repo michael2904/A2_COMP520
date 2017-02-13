@@ -1,0 +1,15 @@
+var a : float;
+var B : float;
+var res : float;
+var Val : float;
+var _doneString : string;
+var _do_neString : string;
+a = 9.300000;
+read B;
+res = ((a*B)+B);
+while res do
+	res = (res+-);
+done
+_doneString = "It is \" a \$ test";
+doneString = "done";
+print _doneString;

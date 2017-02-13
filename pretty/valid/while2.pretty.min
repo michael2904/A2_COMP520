@@ -1,0 +1,4 @@
+var x : int;
+while x do
+	x = 1;
+done

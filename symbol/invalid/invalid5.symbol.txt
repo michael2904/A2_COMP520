@@ -1,0 +1,6 @@
+a  |  float;
+B  |  float;
+res  |  float;
+Val  |  float;
+_doneString  |  string;
+_do_neString  |  string;

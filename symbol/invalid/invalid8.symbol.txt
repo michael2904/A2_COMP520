@@ -1,0 +1,5 @@
+a  |  float;
+b  |  float;
+res  |  float;
+val  |  float;
+doneString  |  string;

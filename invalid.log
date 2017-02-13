@@ -4,16 +4,21 @@ INVALID: (line 1) unknown character '#'
 prettyFilePath - ./pretty/invalid/bad_declaration_none.pretty.min----
 symbolFilePath - ./symbol/invalid/bad_declaration_none.symbol.txt----
 generatedFilePath - ./generated/invalid/bad_declaration_none.c----
-./pretty/invalid/bad_declaration_none.pretty.min./symbol/invalid/bad_declaration_none.symbol.txt./generated/invalid/bad_declaration_none.c
-x = 5;
+prettyFilePath - ./pretty/invalid/bad_declaration_none.pretty.min----
+symbolFilePath - ./symbol/invalid/bad_declaration_none.symbol.txt----
+generatedFilePath - ./generated/invalid/bad_declaration_none.c----
+-./pretty/invalid/bad_declaration_none.pretty.min-
+symbolFilePath-./symbol/invalid/bad_declaration_none.symbol.txt-
 This symbol "x" has no been defined.
 ./programs/invalid/bad_declaration_repeated.min: reading file ./programs/invalid/bad_declaration_repeated.min
 prettyFilePath - ./pretty/invalid/bad_declaration_repeated.pretty.min----
 symbolFilePath - ./symbol/invalid/bad_declaration_repeated.symbol.txt----
 generatedFilePath - ./generated/invalid/bad_declaration_repeated.c----
-./pretty/invalid/bad_declaration_repeated.pretty.min
-var x : int;
-var x : float;
+prettyFilePath - ./pretty/invalid/bad_declaration_repeated.pretty.min----
+symbolFilePath - ./symbol/invalid/bad_declaration_repeated.symbol.txt----
+generatedFilePath - ./generated/invalid/bad_declaration_repeated.c----
+-./pretty/invalid/bad_declaration_repeated.pretty.min-
+symbolFilePath-./symbol/invalid/bad_declaration_repeated.symbol.txt-
 ---- This identifier ( "x") was already declared at 2 ----
 ./programs/invalid/bad_float.min: INVALID: syntax error before -1.0111- --> error: syntax error
 reading file ./programs/invalid/bad_float.min
@@ -25,39 +30,41 @@ INVALID: (line 7) unknown character ','
 prettyFilePath - ./pretty/invalid/bad_type_assignment.pretty.min----
 symbolFilePath - ./symbol/invalid/bad_type_assignment.symbol.txt----
 generatedFilePath - ./generated/invalid/bad_type_assignment.c----
-./pretty/invalid/bad_type_assignment.pretty.min
-var x : int;
-x = 5.000000;
+prettyFilePath - ./pretty/invalid/bad_type_assignment.pretty.min----
+symbolFilePath - ./symbol/invalid/bad_type_assignment.symbol.txt----
+generatedFilePath - ./generated/invalid/bad_type_assignment.c----
+-./pretty/invalid/bad_type_assignment.pretty.min-
+symbolFilePath-./symbol/invalid/bad_type_assignment.symbol.txt-
 This symbol has a wrong type. not int
 ./programs/invalid/bad_type_int_string.min: reading file ./programs/invalid/bad_type_int_string.min
 prettyFilePath - ./pretty/invalid/bad_type_int_string.pretty.min----
 symbolFilePath - ./symbol/invalid/bad_type_int_string.symbol.txt----
 generatedFilePath - ./generated/invalid/bad_type_int_string.c----
-./pretty/invalid/bad_type_int_string.pretty.min
-var x : int;
-var s : string;
-s = "Hello";
-while x do
-	x = (x+s);
-done
+prettyFilePath - ./pretty/invalid/bad_type_int_string.pretty.min----
+symbolFilePath - ./symbol/invalid/bad_type_int_string.symbol.txt----
+generatedFilePath - ./generated/invalid/bad_type_int_string.c----
+-./pretty/invalid/bad_type_int_string.pretty.min-
+symbolFilePath-./symbol/invalid/bad_type_int_string.symbol.txt-
 This symbol has a wrong type.
 ./programs/invalid/bad_type_string_division.min: reading file ./programs/invalid/bad_type_string_division.min
 prettyFilePath - ./pretty/invalid/bad_type_string_division.pretty.min----
 symbolFilePath - ./symbol/invalid/bad_type_string_division.symbol.txt----
 generatedFilePath - ./generated/invalid/bad_type_string_division.c----
-./pretty/invalid/bad_type_string_division.pretty.min
-var s : string;
-s = (s/10);
+prettyFilePath - ./pretty/invalid/bad_type_string_division.pretty.min----
+symbolFilePath - ./symbol/invalid/bad_type_string_division.symbol.txt----
+generatedFilePath - ./generated/invalid/bad_type_string_division.c----
+-./pretty/invalid/bad_type_string_division.pretty.min-
+symbolFilePath-./symbol/invalid/bad_type_string_division.symbol.txt-
 This symbol has a wrong type.
 ./programs/invalid/bad_type_while.min: reading file ./programs/invalid/bad_type_while.min
 prettyFilePath - ./pretty/invalid/bad_type_while.pretty.min----
 symbolFilePath - ./symbol/invalid/bad_type_while.symbol.txt----
 generatedFilePath - ./generated/invalid/bad_type_while.c----
-./pretty/invalid/bad_type_while.pretty.min
-var x : float;
-while x do
-	x = (x-x);
-done
+prettyFilePath - ./pretty/invalid/bad_type_while.pretty.min----
+symbolFilePath - ./symbol/invalid/bad_type_while.symbol.txt----
+generatedFilePath - ./generated/invalid/bad_type_while.c----
+-./pretty/invalid/bad_type_while.pretty.min-
+symbolFilePath-./symbol/invalid/bad_type_while.symbol.txt-
 Type Check exception at line 3. 
 ./programs/invalid/bad_while.min: INVALID: syntax error before -docurrent- --> error: syntax error
 reading file ./programs/invalid/bad_while.min
@@ -121,22 +128,11 @@ reading file ./programs/invalid/invalid4.min
 prettyFilePath - ./pretty/invalid/invalid5.pretty.min----
 symbolFilePath - ./symbol/invalid/invalid5.symbol.txt----
 generatedFilePath - ./generated/invalid/invalid5.c----
-./pretty/invalid/invalid5.pretty.min
-var a : float;
-var B : float;
-var res : float;
-var Val : float;
-var _doneString : string;
-var _do_neString : string;
-a = 9.300000;
-read B;
-res = ((a*B)+B);
-while res do
-	res = (res+-);
-done
-_doneString = "It is \" a \$ test";
-doneString = "done";
-print _doneString;
+prettyFilePath - ./pretty/invalid/invalid5.pretty.min----
+symbolFilePath - ./symbol/invalid/invalid5.symbol.txt----
+generatedFilePath - ./generated/invalid/invalid5.c----
+-./pretty/invalid/invalid5.pretty.min-
+symbolFilePath-./symbol/invalid/invalid5.symbol.txt-
 Type Check exception at line 16. 
 ./programs/invalid/invalid6.min: INVALID: syntax error before -1- --> error: syntax error
 reading file ./programs/invalid/invalid6.min
@@ -146,20 +142,11 @@ INVALID: (line 1) unknown character '.'
 prettyFilePath - ./pretty/invalid/invalid8.pretty.min----
 symbolFilePath - ./symbol/invalid/invalid8.symbol.txt----
 generatedFilePath - ./generated/invalid/invalid8.c----
-./pretty/invalid/invalid8.pretty.min
-var a : float;
-var b : float;
-var res : float;
-var val : float;
-var doneString : string;
-read a;
-read b;
-res = ((a*b)+b);
-while res do
-	res = (res+-);
-done
-doneString = "It is done";
-print doneString;
+prettyFilePath - ./pretty/invalid/invalid8.pretty.min----
+symbolFilePath - ./symbol/invalid/invalid8.symbol.txt----
+generatedFilePath - ./generated/invalid/invalid8.c----
+-./pretty/invalid/invalid8.pretty.min-
+symbolFilePath-./symbol/invalid/invalid8.symbol.txt-
 Type Check exception at line 14. 
 ./programs/invalid/literal1.min: INVALID: syntax error before -1- --> error: syntax error
 reading file ./programs/invalid/literal1.min

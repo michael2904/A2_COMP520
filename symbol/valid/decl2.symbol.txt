@@ -1,0 +1,4 @@
+x  |  int;
+T  |  int;
+xT  |  int;
+Tx  |  int;

@@ -2,7 +2,11 @@
 prettyFilePath - ./pretty/valid/blank.pretty.min----
 symbolFilePath - ./symbol/valid/blank.symbol.txt----
 generatedFilePath - ./generated/valid/blank.c----
-./pretty/valid/blank.pretty.min
+prettyFilePath - ./pretty/valid/blank.pretty.min----
+symbolFilePath - ./symbol/valid/blank.symbol.txt----
+generatedFilePath - ./generated/valid/blank.c----
+-./pretty/valid/blank.pretty.min-
+symbolFilePath-./symbol/valid/blank.symbol.txt-
 #include <stdio.h>
 #include <stdlib.h>
 void main(){
@@ -13,7 +17,11 @@ VALID
 prettyFilePath - ./pretty/valid/comment.pretty.min----
 symbolFilePath - ./symbol/valid/comment.symbol.txt----
 generatedFilePath - ./generated/valid/comment.c----
-./pretty/valid/comment.pretty.min
+prettyFilePath - ./pretty/valid/comment.pretty.min----
+symbolFilePath - ./symbol/valid/comment.symbol.txt----
+generatedFilePath - ./generated/valid/comment.c----
+-./pretty/valid/comment.pretty.min-
+symbolFilePath-./symbol/valid/comment.symbol.txt-
 #include <stdio.h>
 #include <stdlib.h>
 void main(){
@@ -24,9 +32,11 @@ VALID
 prettyFilePath - ./pretty/valid/decl1.pretty.min----
 symbolFilePath - ./symbol/valid/decl1.symbol.txt----
 generatedFilePath - ./generated/valid/decl1.c----
-./pretty/valid/decl1.pretty.min
-var x : int;
-var itisanicevar : int;
+prettyFilePath - ./pretty/valid/decl1.pretty.min----
+symbolFilePath - ./symbol/valid/decl1.symbol.txt----
+generatedFilePath - ./generated/valid/decl1.c----
+-./pretty/valid/decl1.pretty.min-
+symbolFilePath-./symbol/valid/decl1.symbol.txt-
 #include <stdio.h>
 #include <stdlib.h>
 void main(){
@@ -39,11 +49,11 @@ VALID
 prettyFilePath - ./pretty/valid/decl2.pretty.min----
 symbolFilePath - ./symbol/valid/decl2.symbol.txt----
 generatedFilePath - ./generated/valid/decl2.c----
-./pretty/valid/decl2.pretty.min
-var x : int;
-var T : int;
-var xT : int;
-var Tx : int;
+prettyFilePath - ./pretty/valid/decl2.pretty.min----
+symbolFilePath - ./symbol/valid/decl2.symbol.txt----
+generatedFilePath - ./generated/valid/decl2.c----
+-./pretty/valid/decl2.pretty.min-
+symbolFilePath-./symbol/valid/decl2.symbol.txt-
 #include <stdio.h>
 #include <stdlib.h>
 void main(){
@@ -58,9 +68,11 @@ VALID
 prettyFilePath - ./pretty/valid/decl3.pretty.min----
 symbolFilePath - ./symbol/valid/decl3.symbol.txt----
 generatedFilePath - ./generated/valid/decl3.c----
-./pretty/valid/decl3.pretty.min
-var z_1 : int;
-var __z : int;
+prettyFilePath - ./pretty/valid/decl3.pretty.min----
+symbolFilePath - ./symbol/valid/decl3.symbol.txt----
+generatedFilePath - ./generated/valid/decl3.c----
+-./pretty/valid/decl3.pretty.min-
+symbolFilePath-./symbol/valid/decl3.symbol.txt-
 #include <stdio.h>
 #include <stdlib.h>
 void main(){
@@ -73,8 +85,11 @@ VALID
 prettyFilePath - ./pretty/valid/decl4.pretty.min----
 symbolFilePath - ./symbol/valid/decl4.symbol.txt----
 generatedFilePath - ./generated/valid/decl4.c----
-./pretty/valid/decl4.pretty.min
-var x : float;
+prettyFilePath - ./pretty/valid/decl4.pretty.min----
+symbolFilePath - ./symbol/valid/decl4.symbol.txt----
+generatedFilePath - ./generated/valid/decl4.c----
+-./pretty/valid/decl4.pretty.min-
+symbolFilePath-./symbol/valid/decl4.symbol.txt-
 #include <stdio.h>
 #include <stdlib.h>
 void main(){
@@ -86,8 +101,11 @@ VALID
 prettyFilePath - ./pretty/valid/decl5.pretty.min----
 symbolFilePath - ./symbol/valid/decl5.symbol.txt----
 generatedFilePath - ./generated/valid/decl5.c----
-./pretty/valid/decl5.pretty.min
-var x : string;
+prettyFilePath - ./pretty/valid/decl5.pretty.min----
+symbolFilePath - ./symbol/valid/decl5.symbol.txt----
+generatedFilePath - ./generated/valid/decl5.c----
+-./pretty/valid/decl5.pretty.min-
+symbolFilePath-./symbol/valid/decl5.symbol.txt-
 #include <stdio.h>
 #include <stdlib.h>
 void main(){
@@ -99,8 +117,11 @@ VALID
 prettyFilePath - ./pretty/valid/decl6.pretty.min----
 symbolFilePath - ./symbol/valid/decl6.symbol.txt----
 generatedFilePath - ./generated/valid/decl6.c----
-./pretty/valid/decl6.pretty.min
-var ident000 : int;
+prettyFilePath - ./pretty/valid/decl6.pretty.min----
+symbolFilePath - ./symbol/valid/decl6.symbol.txt----
+generatedFilePath - ./generated/valid/decl6.c----
+-./pretty/valid/decl6.pretty.min-
+symbolFilePath-./symbol/valid/decl6.symbol.txt-
 #include <stdio.h>
 #include <stdlib.h>
 void main(){
@@ -112,13 +133,11 @@ VALID
 prettyFilePath - ./pretty/valid/expr1.pretty.min----
 symbolFilePath - ./symbol/valid/expr1.symbol.txt----
 generatedFilePath - ./generated/valid/expr1.c----
-./pretty/valid/expr1.pretty.min
-var x : int;
-var y : float;
-var z : string;
-x = 3;
-y = 0.000000;
-z = "string";
+prettyFilePath - ./pretty/valid/expr1.pretty.min----
+symbolFilePath - ./symbol/valid/expr1.symbol.txt----
+generatedFilePath - ./generated/valid/expr1.c----
+-./pretty/valid/expr1.pretty.min-
+symbolFilePath-./symbol/valid/expr1.symbol.txt-
 #include <stdio.h>
 #include <stdlib.h>
 void main(){
@@ -135,12 +154,11 @@ VALID
 prettyFilePath - ./pretty/valid/expr2.pretty.min----
 symbolFilePath - ./symbol/valid/expr2.symbol.txt----
 generatedFilePath - ./generated/valid/expr2.c----
-./pretty/valid/expr2.pretty.min
-var x : int;
-x = (2+3);
-x = (2-3);
-x = (2*3);
-x = (2/3);
+prettyFilePath - ./pretty/valid/expr2.pretty.min----
+symbolFilePath - ./symbol/valid/expr2.symbol.txt----
+generatedFilePath - ./generated/valid/expr2.c----
+-./pretty/valid/expr2.pretty.min-
+symbolFilePath-./symbol/valid/expr2.symbol.txt-
 #include <stdio.h>
 #include <stdlib.h>
 void main(){
@@ -156,9 +174,11 @@ VALID
 prettyFilePath - ./pretty/valid/expr3.pretty.min----
 symbolFilePath - ./symbol/valid/expr3.symbol.txt----
 generatedFilePath - ./generated/valid/expr3.c----
-./pretty/valid/expr3.pretty.min
-var x : int;
-x = -;
+prettyFilePath - ./pretty/valid/expr3.pretty.min----
+symbolFilePath - ./symbol/valid/expr3.symbol.txt----
+generatedFilePath - ./generated/valid/expr3.c----
+-./pretty/valid/expr3.pretty.min-
+symbolFilePath-./symbol/valid/expr3.symbol.txt-
 #include <stdio.h>
 #include <stdlib.h>
 void main(){
@@ -171,12 +191,11 @@ VALID
 prettyFilePath - ./pretty/valid/expr4.pretty.min----
 symbolFilePath - ./symbol/valid/expr4.symbol.txt----
 generatedFilePath - ./generated/valid/expr4.c----
-./pretty/valid/expr4.pretty.min
-var x : float;
-x = (0.000000+0.000000);
-x = (0.000000-0.000000);
-x = (0.000000*0.000000);
-x = (0.000000/0.000000);
+prettyFilePath - ./pretty/valid/expr4.pretty.min----
+symbolFilePath - ./symbol/valid/expr4.symbol.txt----
+generatedFilePath - ./generated/valid/expr4.c----
+-./pretty/valid/expr4.pretty.min-
+symbolFilePath-./symbol/valid/expr4.symbol.txt-
 #include <stdio.h>
 #include <stdlib.h>
 void main(){
@@ -192,10 +211,11 @@ VALID
 prettyFilePath - ./pretty/valid/expr5.pretty.min----
 symbolFilePath - ./symbol/valid/expr5.symbol.txt----
 generatedFilePath - ./generated/valid/expr5.c----
-./pretty/valid/expr5.pretty.min
-var x : int;
-x = (2*3);
-x = ((3*8)-3);
+prettyFilePath - ./pretty/valid/expr5.pretty.min----
+symbolFilePath - ./symbol/valid/expr5.symbol.txt----
+generatedFilePath - ./generated/valid/expr5.c----
+-./pretty/valid/expr5.pretty.min-
+symbolFilePath-./symbol/valid/expr5.symbol.txt-
 #include <stdio.h>
 #include <stdlib.h>
 void main(){
@@ -209,9 +229,11 @@ VALID
 prettyFilePath - ./pretty/valid/expr6.pretty.min----
 symbolFilePath - ./symbol/valid/expr6.symbol.txt----
 generatedFilePath - ./generated/valid/expr6.c----
-./pretty/valid/expr6.pretty.min
-var x : float;
-x = ((0+0.010000)+(0.010000-(-/-)));
+prettyFilePath - ./pretty/valid/expr6.pretty.min----
+symbolFilePath - ./symbol/valid/expr6.symbol.txt----
+generatedFilePath - ./generated/valid/expr6.c----
+-./pretty/valid/expr6.pretty.min-
+symbolFilePath-./symbol/valid/expr6.symbol.txt-
 #include <stdio.h>
 #include <stdlib.h>
 void main(){
@@ -224,10 +246,11 @@ VALID
 prettyFilePath - ./pretty/valid/expr7.pretty.min----
 symbolFilePath - ./symbol/valid/expr7.symbol.txt----
 generatedFilePath - ./generated/valid/expr7.c----
-./pretty/valid/expr7.pretty.min
-var s : string;
-s = ("string"+"string");
-s = ("string"*3);
+prettyFilePath - ./pretty/valid/expr7.pretty.min----
+symbolFilePath - ./symbol/valid/expr7.symbol.txt----
+generatedFilePath - ./generated/valid/expr7.c----
+-./pretty/valid/expr7.pretty.min-
+symbolFilePath-./symbol/valid/expr7.symbol.txt-
 #include <stdio.h>
 #include <stdlib.h>
 void main(){
@@ -241,23 +264,11 @@ VALID
 prettyFilePath - ./pretty/valid/fib.pretty.min----
 symbolFilePath - ./symbol/valid/fib.symbol.txt----
 generatedFilePath - ./generated/valid/fib.c----
-./pretty/valid/fib.pretty.min
-var a : int;
-var b : int;
-var n : int;
-var t : int;
-while 1 do
-	read n;
-	a = 0;
-	b = 1;
-	while n do
-		t = a;
-		a = b;
-		b = (b+t);
-		n = (n-1);
-	done
-	print a;
-done
+prettyFilePath - ./pretty/valid/fib.pretty.min----
+symbolFilePath - ./symbol/valid/fib.symbol.txt----
+generatedFilePath - ./generated/valid/fib.c----
+-./pretty/valid/fib.pretty.min-
+symbolFilePath-./symbol/valid/fib.symbol.txt-
 #include <stdio.h>
 #include <stdlib.h>
 void main(){
@@ -284,11 +295,11 @@ VALID
 prettyFilePath - ./pretty/valid/if1.pretty.min----
 symbolFilePath - ./symbol/valid/if1.symbol.txt----
 generatedFilePath - ./generated/valid/if1.c----
-./pretty/valid/if1.pretty.min
-var x : int;
-if 1 then 
-	x = 0;
-	endif
+prettyFilePath - ./pretty/valid/if1.pretty.min----
+symbolFilePath - ./symbol/valid/if1.symbol.txt----
+generatedFilePath - ./generated/valid/if1.c----
+-./pretty/valid/if1.pretty.min-
+symbolFilePath-./symbol/valid/if1.symbol.txt-
 #include <stdio.h>
 #include <stdlib.h>
 void main(){
@@ -303,11 +314,11 @@ VALID
 prettyFilePath - ./pretty/valid/if2.pretty.min----
 symbolFilePath - ./symbol/valid/if2.symbol.txt----
 generatedFilePath - ./generated/valid/if2.c----
-./pretty/valid/if2.pretty.min
-var x : int;
-if x then 
-	x = 0;
-	endif
+prettyFilePath - ./pretty/valid/if2.pretty.min----
+symbolFilePath - ./symbol/valid/if2.symbol.txt----
+generatedFilePath - ./generated/valid/if2.c----
+-./pretty/valid/if2.pretty.min-
+symbolFilePath-./symbol/valid/if2.symbol.txt-
 #include <stdio.h>
 #include <stdlib.h>
 void main(){
@@ -322,9 +333,11 @@ VALID
 prettyFilePath - ./pretty/valid/if3.pretty.min----
 symbolFilePath - ./symbol/valid/if3.symbol.txt----
 generatedFilePath - ./generated/valid/if3.c----
-./pretty/valid/if3.pretty.min
-if 1 then 
-	endif
+prettyFilePath - ./pretty/valid/if3.pretty.min----
+symbolFilePath - ./symbol/valid/if3.symbol.txt----
+generatedFilePath - ./generated/valid/if3.c----
+-./pretty/valid/if3.pretty.min-
+symbolFilePath-./symbol/valid/if3.symbol.txt-
 #include <stdio.h>
 #include <stdlib.h>
 void main(){
@@ -337,13 +350,11 @@ VALID
 prettyFilePath - ./pretty/valid/ifelse1.pretty.min----
 symbolFilePath - ./symbol/valid/ifelse1.symbol.txt----
 generatedFilePath - ./generated/valid/ifelse1.c----
-./pretty/valid/ifelse1.pretty.min
-var x : int;
-if 1 then 
-	x = 0;
-else
-	x = 1;
-endif
+prettyFilePath - ./pretty/valid/ifelse1.pretty.min----
+symbolFilePath - ./symbol/valid/ifelse1.symbol.txt----
+generatedFilePath - ./generated/valid/ifelse1.c----
+-./pretty/valid/ifelse1.pretty.min-
+symbolFilePath-./symbol/valid/ifelse1.symbol.txt-
 #include <stdio.h>
 #include <stdlib.h>
 void main(){
@@ -360,9 +371,11 @@ VALID
 prettyFilePath - ./pretty/valid/ifelse2.pretty.min----
 symbolFilePath - ./symbol/valid/ifelse2.symbol.txt----
 generatedFilePath - ./generated/valid/ifelse2.c----
-./pretty/valid/ifelse2.pretty.min
-if 1 then 
-	endif
+prettyFilePath - ./pretty/valid/ifelse2.pretty.min----
+symbolFilePath - ./symbol/valid/ifelse2.symbol.txt----
+generatedFilePath - ./generated/valid/ifelse2.c----
+-./pretty/valid/ifelse2.pretty.min-
+symbolFilePath-./symbol/valid/ifelse2.symbol.txt-
 #include <stdio.h>
 #include <stdlib.h>
 void main(){
@@ -375,13 +388,11 @@ VALID
 prettyFilePath - ./pretty/valid/ifwhile1.pretty.min----
 symbolFilePath - ./symbol/valid/ifwhile1.symbol.txt----
 generatedFilePath - ./generated/valid/ifwhile1.c----
-./pretty/valid/ifwhile1.pretty.min
-var x : int;
-if 1 then 
-	while 1 do
-		x = 1;
-	done
-	endif
+prettyFilePath - ./pretty/valid/ifwhile1.pretty.min----
+symbolFilePath - ./symbol/valid/ifwhile1.symbol.txt----
+generatedFilePath - ./generated/valid/ifwhile1.c----
+-./pretty/valid/ifwhile1.pretty.min-
+symbolFilePath-./symbol/valid/ifwhile1.symbol.txt-
 #include <stdio.h>
 #include <stdlib.h>
 void main(){
@@ -398,13 +409,11 @@ VALID
 prettyFilePath - ./pretty/valid/ifwhile2.pretty.min----
 symbolFilePath - ./symbol/valid/ifwhile2.symbol.txt----
 generatedFilePath - ./generated/valid/ifwhile2.c----
-./pretty/valid/ifwhile2.pretty.min
-var x : int;
-while 1 do
-	if 1 then 
-		x = 1;
-		endif
-done
+prettyFilePath - ./pretty/valid/ifwhile2.pretty.min----
+symbolFilePath - ./symbol/valid/ifwhile2.symbol.txt----
+generatedFilePath - ./generated/valid/ifwhile2.c----
+-./pretty/valid/ifwhile2.pretty.min-
+symbolFilePath-./symbol/valid/ifwhile2.symbol.txt-
 #include <stdio.h>
 #include <stdlib.h>
 void main(){
@@ -421,11 +430,11 @@ VALID
 prettyFilePath - ./pretty/valid/literal1.pretty.min----
 symbolFilePath - ./symbol/valid/literal1.symbol.txt----
 generatedFilePath - ./generated/valid/literal1.c----
-./pretty/valid/literal1.pretty.min
-var x : int;
-x = 0;
-x = 1;
-x = 10;
+prettyFilePath - ./pretty/valid/literal1.pretty.min----
+symbolFilePath - ./symbol/valid/literal1.symbol.txt----
+generatedFilePath - ./generated/valid/literal1.c----
+-./pretty/valid/literal1.pretty.min-
+symbolFilePath-./symbol/valid/literal1.symbol.txt-
 #include <stdio.h>
 #include <stdlib.h>
 void main(){
@@ -440,9 +449,11 @@ VALID
 prettyFilePath - ./pretty/valid/literal2.pretty.min----
 symbolFilePath - ./symbol/valid/literal2.symbol.txt----
 generatedFilePath - ./generated/valid/literal2.c----
-./pretty/valid/literal2.pretty.min
-var z_1 : string;
-z_1 = ":~#$%^&*-+/`<>=_|';:{}[]()\"\a\b \f\n\r\t\v\\ ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 0123456789";
+prettyFilePath - ./pretty/valid/literal2.pretty.min----
+symbolFilePath - ./symbol/valid/literal2.symbol.txt----
+generatedFilePath - ./generated/valid/literal2.c----
+-./pretty/valid/literal2.pretty.min-
+symbolFilePath-./symbol/valid/literal2.symbol.txt-
 #include <stdio.h>
 #include <stdlib.h>
 void main(){
@@ -455,12 +466,11 @@ VALID
 prettyFilePath - ./pretty/valid/literal3.pretty.min----
 symbolFilePath - ./symbol/valid/literal3.symbol.txt----
 generatedFilePath - ./generated/valid/literal3.c----
-./pretty/valid/literal3.pretty.min
-var x : float;
-x = 0.100000;
-x = 1.100000;
-x = 0.000000;
-x = 0.010000;
+prettyFilePath - ./pretty/valid/literal3.pretty.min----
+symbolFilePath - ./symbol/valid/literal3.symbol.txt----
+generatedFilePath - ./generated/valid/literal3.c----
+-./pretty/valid/literal3.pretty.min-
+symbolFilePath-./symbol/valid/literal3.symbol.txt-
 #include <stdio.h>
 #include <stdlib.h>
 void main(){
@@ -476,21 +486,11 @@ VALID
 prettyFilePath - ./pretty/valid/sqrt.pretty.min----
 symbolFilePath - ./symbol/valid/sqrt.symbol.txt----
 generatedFilePath - ./generated/valid/sqrt.c----
-./pretty/valid/sqrt.pretty.min
-var x : float;
-var guess : float;
-var quot : float;
-var iter : int;
-read x;
-guess = 1;
-iter = 10;
-while iter do
-	quot = (x/guess);
-	guess = (0.500000*(guess+quot));
-	iter = (iter-1);
-done
-print guess;
-print (guess*guess);
+prettyFilePath - ./pretty/valid/sqrt.pretty.min----
+symbolFilePath - ./symbol/valid/sqrt.symbol.txt----
+generatedFilePath - ./generated/valid/sqrt.c----
+-./pretty/valid/sqrt.pretty.min-
+symbolFilePath-./symbol/valid/sqrt.symbol.txt-
 #include <stdio.h>
 #include <stdlib.h>
 void main(){
@@ -515,9 +515,11 @@ VALID
 prettyFilePath - ./pretty/valid/stmt1.pretty.min----
 symbolFilePath - ./symbol/valid/stmt1.symbol.txt----
 generatedFilePath - ./generated/valid/stmt1.c----
-./pretty/valid/stmt1.pretty.min
-var x : int;
-read x;
+prettyFilePath - ./pretty/valid/stmt1.pretty.min----
+symbolFilePath - ./symbol/valid/stmt1.symbol.txt----
+generatedFilePath - ./generated/valid/stmt1.c----
+-./pretty/valid/stmt1.pretty.min-
+symbolFilePath-./symbol/valid/stmt1.symbol.txt-
 #include <stdio.h>
 #include <stdlib.h>
 void main(){
@@ -530,8 +532,11 @@ VALID
 prettyFilePath - ./pretty/valid/stmt2.pretty.min----
 symbolFilePath - ./symbol/valid/stmt2.symbol.txt----
 generatedFilePath - ./generated/valid/stmt2.c----
-./pretty/valid/stmt2.pretty.min
-print 0;
+prettyFilePath - ./pretty/valid/stmt2.pretty.min----
+symbolFilePath - ./symbol/valid/stmt2.symbol.txt----
+generatedFilePath - ./generated/valid/stmt2.c----
+-./pretty/valid/stmt2.pretty.min-
+symbolFilePath-./symbol/valid/stmt2.symbol.txt-
 #include <stdio.h>
 #include <stdlib.h>
 void main(){
@@ -543,9 +548,11 @@ VALID
 prettyFilePath - ./pretty/valid/stmt3.pretty.min----
 symbolFilePath - ./symbol/valid/stmt3.symbol.txt----
 generatedFilePath - ./generated/valid/stmt3.c----
-./pretty/valid/stmt3.pretty.min
-var x : int;
-print (3*x);
+prettyFilePath - ./pretty/valid/stmt3.pretty.min----
+symbolFilePath - ./symbol/valid/stmt3.symbol.txt----
+generatedFilePath - ./generated/valid/stmt3.c----
+-./pretty/valid/stmt3.pretty.min-
+symbolFilePath-./symbol/valid/stmt3.symbol.txt-
 #include <stdio.h>
 #include <stdlib.h>
 void main(){
@@ -558,9 +565,11 @@ VALID
 prettyFilePath - ./pretty/valid/stmt4.pretty.min----
 symbolFilePath - ./symbol/valid/stmt4.symbol.txt----
 generatedFilePath - ./generated/valid/stmt4.c----
-./pretty/valid/stmt4.pretty.min
-var x : string;
-x = "mystring";
+prettyFilePath - ./pretty/valid/stmt4.pretty.min----
+symbolFilePath - ./symbol/valid/stmt4.symbol.txt----
+generatedFilePath - ./generated/valid/stmt4.c----
+-./pretty/valid/stmt4.pretty.min-
+symbolFilePath-./symbol/valid/stmt4.symbol.txt-
 #include <stdio.h>
 #include <stdlib.h>
 void main(){
@@ -573,10 +582,11 @@ VALID
 prettyFilePath - ./pretty/valid/stmt5.pretty.min----
 symbolFilePath - ./symbol/valid/stmt5.symbol.txt----
 generatedFilePath - ./generated/valid/stmt5.c----
-./pretty/valid/stmt5.pretty.min
-var x : int;
-var y : int;
-x = y;
+prettyFilePath - ./pretty/valid/stmt5.pretty.min----
+symbolFilePath - ./symbol/valid/stmt5.symbol.txt----
+generatedFilePath - ./generated/valid/stmt5.c----
+-./pretty/valid/stmt5.pretty.min-
+symbolFilePath-./symbol/valid/stmt5.symbol.txt-
 #include <stdio.h>
 #include <stdlib.h>
 void main(){
@@ -590,23 +600,11 @@ VALID
 prettyFilePath - ./pretty/valid/valid1.pretty.min----
 symbolFilePath - ./symbol/valid/valid1.symbol.txt----
 generatedFilePath - ./generated/valid/valid1.c----
-./pretty/valid/valid1.pretty.min./symbol/valid/valid1.symbol.txt./generated/valid/valid1.c
-var a : int;
-var b : int;
-var c : int;
-var hello : string;
-var bye : string;
-read a;
-b = 0;
-hello = "hello";
-bye = "This is a \"complicated\"  ~ ` < % | \a \b \f \v ? @ {} \n \r \t bye";
-c = (a+-);
-if c then 
-	print bye;
-else
-	print hello;
-endif
-print c;
+prettyFilePath - ./pretty/valid/valid1.pretty.min----
+symbolFilePath - ./symbol/valid/valid1.symbol.txt----
+generatedFilePath - ./generated/valid/valid1.c----
+-./pretty/valid/valid1.pretty.min-
+symbolFilePath-./symbol/valid/valid1.symbol.txt-
 #include <stdio.h>
 #include <stdlib.h>
 void main(){
@@ -633,11 +631,11 @@ VALID
 prettyFilePath - ./pretty/valid/while1.pretty.min----
 symbolFilePath - ./symbol/valid/while1.symbol.txt----
 generatedFilePath - ./generated/valid/while1.c----
-./pretty/valid/while1.pretty.min./symbol/valid/while1.symbol.txt./generated/valid/while1.c
-var x : int;
-while 1 do
-	x = 1;
-done
+prettyFilePath - ./pretty/valid/while1.pretty.min----
+symbolFilePath - ./symbol/valid/while1.symbol.txt----
+generatedFilePath - ./generated/valid/while1.c----
+-./pretty/valid/while1.pretty.min-
+symbolFilePath-./symbol/valid/while1.symbol.txt-
 #include <stdio.h>
 #include <stdlib.h>
 void main(){
@@ -652,11 +650,11 @@ VALID
 prettyFilePath - ./pretty/valid/while2.pretty.min----
 symbolFilePath - ./symbol/valid/while2.symbol.txt----
 generatedFilePath - ./generated/valid/while2.c----
-./pretty/valid/while2.pretty.min./symbol/valid/while2.symbol.txt./generated/valid/while2.c
-var x : int;
-while x do
-	x = 1;
-done
+prettyFilePath - ./pretty/valid/while2.pretty.min----
+symbolFilePath - ./symbol/valid/while2.symbol.txt----
+generatedFilePath - ./generated/valid/while2.c----
+-./pretty/valid/while2.pretty.min-
+symbolFilePath-./symbol/valid/while2.symbol.txt-
 #include <stdio.h>
 #include <stdlib.h>
 void main(){
@@ -671,9 +669,11 @@ VALID
 prettyFilePath - ./pretty/valid/while3.pretty.min----
 symbolFilePath - ./symbol/valid/while3.symbol.txt----
 generatedFilePath - ./generated/valid/while3.c----
-./pretty/valid/while3.pretty.min./symbol/valid/while3.symbol.txt./generated/valid/while3.c
-while 1 do
-done
+prettyFilePath - ./pretty/valid/while3.pretty.min----
+symbolFilePath - ./symbol/valid/while3.symbol.txt----
+generatedFilePath - ./generated/valid/while3.c----
+-./pretty/valid/while3.pretty.min-
+symbolFilePath-./symbol/valid/while3.symbol.txt-
 #include <stdio.h>
 #include <stdlib.h>
 void main(){

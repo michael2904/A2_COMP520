@@ -6,7 +6,7 @@ extern char* prettyFilePath;
 FILE *prettyFile;
 
 void prettyPROG(PROG *prog){
-	printf("%s\n",prettyFilePath);
+	printf("-%s-\n",prettyFilePath);
 	prettyFile = fopen(prettyFilePath, "w");
 	if(prog != NULL){
 		ind = 0;
@@ -19,13 +19,13 @@ void prettyDECL(DECL *d){
 	if(d != NULL){
 		switch (d->kind) {
 			case intK:
-				printf("var %s : int;\n",d->identD->ident);
+				fprintf(prettyFile,"var %s : int;\n",d->identD->ident);
 				break;
 			case floatK:
-				printf("var %s : float;\n",d->identD->ident);
+				fprintf(prettyFile,"var %s : float;\n",d->identD->ident);
 				break;
 			case stringK:
-				printf("var %s : string;\n",d->identD->ident);
+				fprintf(prettyFile,"var %s : string;\n",d->identD->ident);
 				break;
 		}
 		if(d->next != NULL){
@@ -39,61 +39,61 @@ void prettySTMT(STMT *s){
 	if(s != NULL){
 		int i;
 		for(i = 0;i<ind;i++){
-			printf("	");
+			fprintf(prettyFile,"	");
 		}
 		switch (s->kind) {
 			case readStmt:
-				printf("read %s;\n",s->val.readU.readId->ident);
+				fprintf(prettyFile,"read %s;\n",s->val.readU.readId->ident);
 				break;
 			case printStmt:
-				printf("print ");
+				fprintf(prettyFile,"print ");
 				prettyEXP(s->val.printU.printExp);
-				printf(";\n");
+				fprintf(prettyFile,";\n");
 				break;
 			case assignStmt:
-				printf("%s = ",s->val.assignU.identId->ident);
+				fprintf(prettyFile,"%s = ",s->val.assignU.identId->ident);
 				prettyEXP(s->val.assignU.assignExp);
-				printf(";\n");
+				fprintf(prettyFile,";\n");
 				break;
 			case ifStmt:
-				printf("if ");
+				fprintf(prettyFile,"if ");
 				prettyEXP(s->val.ifU.condExp);
-				printf(" then \n");
+				fprintf(prettyFile," then \n");
 				ind = ind + 1;
 				prettySTMT(s->val.ifU.ifStmt);
 				for(i = 0;i<ind;i++){
-					printf("	");
+					fprintf(prettyFile,"	");
 				}
-				printf("endif\n");
+				fprintf(prettyFile,"endif\n");
 				ind = ind - 1;
 				break;
 			case ifseStmt:
-				printf("if ");
+				fprintf(prettyFile,"if ");
 				prettyEXP(s->val.ifseU.condExp);
-				printf(" then \n");
+				fprintf(prettyFile," then \n");
 				ind = ind + 1;
 				prettySTMT(s->val.ifseU.ifStmt);
 				ind = ind - 1;
-				printf("else\n");
+				fprintf(prettyFile,"else\n");
 				ind = ind + 1;
 				prettySTMT(s->val.ifseU.ifseStmt);
 				ind = ind - 1;
 				for(i = 0;i<ind;i++){
-					printf("	");
+					fprintf(prettyFile,"	");
 				}
-				printf("endif\n");
+				fprintf(prettyFile,"endif\n");
 				break;
 			case whileStmt:
-				printf("while ");
+				fprintf(prettyFile,"while ");
 				prettyEXP(s->val.whileU.condExp);
-				printf(" do\n");
+				fprintf(prettyFile," do\n");
 				ind = ind + 1;
 				prettySTMT(s->val.whileU.bodyStmt);
 				ind = ind - 1;
 				for(i = 0;i<ind;i++){
-					printf("	");
+					fprintf(prettyFile,"	");
 				}
-				printf("done\n");
+				fprintf(prettyFile,"done\n");
 				break;
 		}
 		if(s->next != NULL){
@@ -106,47 +106,47 @@ void prettyEXP(EXP *e){
 	if(e != NULL){
 		switch (e->kind) {
 			case idK:
-				printf("%s",e->val.ident->ident);
+				fprintf(prettyFile,"%s",e->val.ident->ident);
 				break;
 			case intconstK:
-				printf("%i",e->val.intconstE);
+				fprintf(prettyFile,"%i",e->val.intconstE);
 				break;
 			case floatconstK:
-				printf("%f",e->val.floatconstE);
+				fprintf(prettyFile,"%f",e->val.floatconstE);
 				break;
 			case stringconstK:
-				printf("\"%s\"",e->val.stringconstE);
+				fprintf(prettyFile,"\"%s\"",e->val.stringconstE);
 				break;
 			case timesK:
-				printf("(");
+				fprintf(prettyFile,"(");
 				prettyEXP(e->val.timesE.left);
-				printf("*");
+				fprintf(prettyFile,"*");
 				prettyEXP(e->val.timesE.right);
-				printf(")");
+				fprintf(prettyFile,")");
 				break;
 			case divK:
-				printf("(");
+				fprintf(prettyFile,"(");
 				prettyEXP(e->val.divE.left);
-				printf("/");
+				fprintf(prettyFile,"/");
 				prettyEXP(e->val.divE.right);
-				printf(")");
+				fprintf(prettyFile,")");
 				break;
 			case plusK:
-				printf("(");
+				fprintf(prettyFile,"(");
 				prettyEXP(e->val.plusE.left);
-				printf("+");
+				fprintf(prettyFile,"+");
 				prettyEXP(e->val.plusE.right);
-				printf(")");
+				fprintf(prettyFile,")");
 				break;
 			case minusK:
-				printf("(");
+				fprintf(prettyFile,"(");
 				prettyEXP(e->val.minusE.left);
-				printf("-");
+				fprintf(prettyFile,"-");
 				prettyEXP(e->val.minusE.right);
-				printf(")");
+				fprintf(prettyFile,")");
 				break;
 			case unaryK:
-				printf("-");
+				fprintf(prettyFile,"-");
 				prettyEXP(e->val.minusE.right);
 				break;
 		}

@@ -1,0 +1,4 @@
+var x : float;
+while x do
+	x = (x-x);
+done

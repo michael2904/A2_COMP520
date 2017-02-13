@@ -4,8 +4,9 @@
 #include "memory.h"
 #include "symbol.h"
 
-extern char *currentfile;
+extern char *symbolFilePath;
 extern SymbolTable *symbolTable;
+FILE *symbolFile;
 
 int Hash(char *str){
 	unsigned int hash = 0;
@@ -61,7 +62,8 @@ int defSymbol(SymbolTable *t, char *ident){
 }
 
 void makeProgSymbolTable(PROG *prog){
-	// printf("makeProgSymbolTable\n");
+	printf("symbolFilePath-%s-\n",symbolFilePath);
+	symbolFile = fopen(symbolFilePath, "w");
 	DECL *decl;
 	decl = prog->decls;
 	symbolTable = initSymbolTable();
@@ -74,6 +76,17 @@ void makeProgSymbolTable(PROG *prog){
 			exit(1);
 		}else{
 			putSymbol(symbolTable,decl->identD->ident,decl->kind);
+			switch(decl->kind){
+				case intK:
+					fprintf(symbolFile,"%s  |  int;\n",decl->identD->ident);
+					break;
+				case floatK:
+					fprintf(symbolFile,"%s  |  float;\n",decl->identD->ident);
+					break;
+				case stringK:
+					fprintf(symbolFile,"%s  |  string;\n",decl->identD->ident);
+					break;
+			}
 			decl = decl->next;
 		}
 	}

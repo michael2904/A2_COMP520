@@ -1,0 +1,4 @@
+x  |  float;
+guess  |  float;
+quot  |  float;
+iter  |  int;
