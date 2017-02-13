@@ -18,7 +18,7 @@ DECL *makePROGdcls(DECL *decl, DECL *next, int lineno){
 	return decl;
 }
 
-DECL *makePROGdcl(IDENT *ident, TYPES *type, int lineno){
+DECL *makePROGdcl(IDENT *ident, Types type, int lineno){
 	DECL *decl;
 	decl = NEW(DECL);
 	decl->lineno = lineno;
@@ -26,27 +26,6 @@ DECL *makePROGdcl(IDENT *ident, TYPES *type, int lineno){
 	decl->identD = ident;
 	decl->next = NULL;
 	return decl;
-}
- 
-TYPES *makePROGdclInt(){
-	TYPES *type;
-	type = NEW(TYPES);
-	type->type = intK;
-	return type;
-}
-
-TYPES *makePROGdclFloat(){
-	TYPES *type;
-	type = NEW(TYPES);
-	type->type = floatK;
-	return type;
-}
-
-TYPES *makePROGdclString(){
-	TYPES *type;
-	type = NEW(TYPES);
-	type->type = stringK;
-	return type;
 }
 
 STMT *makePROGstmts(STMT *stmt, STMT *next, int lineno){

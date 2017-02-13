@@ -2,13 +2,15 @@
 #include <stdlib.h>
 #include <string.h>
 #include "tree.h"
-#include "y.tab.h"
 #include "pretty.h"
+#include "symbol.h"
+#include "y.tab.h"
 
 
 extern FILE *yyin;
 extern int yyparse(void);
 PROG *theprogram;
+SymbolTable *symbolTable;
 int lineno;
 FILE *outPretty;
 
@@ -81,7 +83,13 @@ int main(int argc,char *argv[]){
 	// remakeFile(argv[1],"pretty");
 	// outPretty = fopen(outPretty, "w");
 	prettyPROG(theprogram);
-	printf("*************-DONE-*************\n");
+	printf("*************-DONE prettyPROG-*************\n");
+	makeProgSymbolTable(theprogram);
+	printf("*************-DONE makeProgramTable-*************\n");
+	typeCheckProg(theprogram);
+	printf("*************-DONE tcProgram-*************\n");
+	generateProg(theprogram);
+	printf("*************-DONE generateProg-*************\n");
 	if(result == 0) {
 		printf("\nVALID \n");
 	} else {

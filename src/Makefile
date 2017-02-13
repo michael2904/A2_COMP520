@@ -5,8 +5,8 @@
 LEX=flex
 CC = gcc
 
-minilang: y.tab.o lex.yy.o main.o tree.h tree.o pretty.h pretty.o memory.h memory.o
-	$(CC) lex.yy.o y.tab.o tree.o pretty.o memory.o main.o -o minilang -ll
+minilang: y.tab.o lex.yy.o main.o tree.h tree.o pretty.h pretty.o symbol.h symbol.o typeCheck.h typeCheck.o generate.c generate.o memory.h memory.o
+	$(CC) lex.yy.o y.tab.o tree.o pretty.o symbol.o typeCheck.o generate.o memory.o main.o -o minilang -ll
 
 y.tab.c y.tab.h: minilangParser.y
 	bison --yacc --defines minilangParser.y

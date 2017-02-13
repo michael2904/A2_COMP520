@@ -1,13 +1,13 @@
 // add a and b
 
-var a: float;
-var b: float;
-var c: float;
+var a: int;
+var b: int;
+var c: int;
 var hello: string;
 var bye: string;
 
 read a;
-b = 0.00000;
+b = 0;
 hello = "hello";
 bye = "This is a \"complicated\"  ~ ` < % | \a \b \f \v ? @ {} \n \r \t bye";
 

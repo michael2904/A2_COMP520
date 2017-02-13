@@ -3,37 +3,28 @@ INVALID: (line 1) unknown character '#'
 -n ./programs/invalid/bad_declaration_none.min: 
 *************-DONE PARSING-*************
 x = 5;
-*************-DONE-*************
-
-VALID 
+*************-DONE prettyPROG-*************
+*************-DONE makeProgramTable-*************
+This symbol "x" has no been defined.
 -n ./programs/invalid/bad_declaration_repeated.min: 
 *************-DONE PARSING-*************
 var x : int;
 var x : float;
-*************-DONE-*************
-
-VALID 
+*************-DONE prettyPROG-*************
+---- This identifier ( "x") was already declared at 2 ----
 -n ./programs/invalid/bad_float.min: 
 INVALID: syntax error before -1.0111- --> error: syntax error
-*************-DONE PARSING-*************
-*************-DONE-*************
-
-INVALID 
 -n ./programs/invalid/bad_if.min: 
 INVALID: syntax error before -- --> error: syntax error
-*************-DONE PARSING-*************
-*************-DONE-*************
-
-INVALID 
 -n ./programs/invalid/bad_string.min: 
 INVALID: (line 7) unknown character ','
 -n ./programs/invalid/bad_type_assignment.min: 
 *************-DONE PARSING-*************
 var x : int;
 x = 5.000000;
-*************-DONE-*************
-
-VALID 
+*************-DONE prettyPROG-*************
+*************-DONE makeProgramTable-*************
+This symbol has a wrong type. not int
 -n ./programs/invalid/bad_type_int_string.min: 
 *************-DONE PARSING-*************
 var x : int;
@@ -42,76 +33,43 @@ s = "Hello";
 while x do
 	x = (x+s);
 done
-*************-DONE-*************
-
-VALID 
+*************-DONE prettyPROG-*************
+*************-DONE makeProgramTable-*************
+This symbol has a wrong type.
 -n ./programs/invalid/bad_type_string_division.min: 
 *************-DONE PARSING-*************
 var s : string;
 s = (s/10);
-*************-DONE-*************
-
-VALID 
+*************-DONE prettyPROG-*************
+*************-DONE makeProgramTable-*************
+This symbol has a wrong type.
 -n ./programs/invalid/bad_type_while.min: 
 *************-DONE PARSING-*************
 var x : float;
 while x do
 	x = (x-x);
 done
-*************-DONE-*************
-
-VALID 
+*************-DONE prettyPROG-*************
+*************-DONE makeProgramTable-*************
+Type Check exception at line 3. 
 -n ./programs/invalid/bad_while.min: 
 INVALID: syntax error before -docurrent- --> error: syntax error
-*************-DONE PARSING-*************
-*************-DONE-*************
-
-INVALID 
 -n ./programs/invalid/comment1.min: 
 INVALID: (line 2) unknown character '#'
 -n ./programs/invalid/decl1.min: 
 INVALID: syntax error before -;- --> error: syntax error
-*************-DONE PARSING-*************
-*************-DONE-*************
-
-INVALID 
 -n ./programs/invalid/decl2.min: 
 INVALID: syntax error before -:- --> error: syntax error
-*************-DONE PARSING-*************
-*************-DONE-*************
-
-INVALID 
 -n ./programs/invalid/decl3.min: 
 INVALID: syntax error before -- --> error: syntax error
-*************-DONE PARSING-*************
-*************-DONE-*************
-
-INVALID 
 -n ./programs/invalid/decl4.min: 
 INVALID: syntax error before -:- --> error: syntax error
-*************-DONE PARSING-*************
-*************-DONE-*************
-
-INVALID 
 -n ./programs/invalid/decl5.min: 
 INVALID: syntax error before -FLOAT- --> error: syntax error
-*************-DONE PARSING-*************
-*************-DONE-*************
-
-INVALID 
 -n ./programs/invalid/decl6.min: 
 INVALID: syntax error before -=- --> error: syntax error
-*************-DONE PARSING-*************
-*************-DONE-*************
-
-INVALID 
 -n ./programs/invalid/decl7.min: 
 INVALID: syntax error before -var- --> error: syntax error
-*************-DONE PARSING-*************
-print 3;
-*************-DONE-*************
-
-INVALID 
 -n ./programs/invalid/decl8.min: 
 INVALID: (line 2) unknown character '#'
 -n ./programs/invalid/expr1.min: 
@@ -120,111 +78,38 @@ INVALID: (line 2) unknown character '~'
 INVALID: (line 2) unknown character '%'
 -n ./programs/invalid/expr3.min: 
 INVALID: syntax error before -;- --> error: syntax error
-*************-DONE PARSING-*************
-*************-DONE-*************
-
-INVALID 
 -n ./programs/invalid/expr4.min: 
 INVALID: syntax error before -)- --> error: syntax error
-*************-DONE PARSING-*************
-*************-DONE-*************
-
-INVALID 
 -n ./programs/invalid/expr5.min: 
 INVALID: syntax error before -)- --> error: syntax error
-*************-DONE PARSING-*************
-*************-DONE-*************
-
-INVALID 
 -n ./programs/invalid/expr6.min: 
 INVALID: syntax error before -+- --> error: syntax error
-*************-DONE PARSING-*************
-*************-DONE-*************
-
-INVALID 
 -n ./programs/invalid/if1.min: 
 INVALID: syntax error before -- --> error: syntax error
-*************-DONE PARSING-*************
-*************-DONE-*************
-
-INVALID 
 -n ./programs/invalid/if2.min: 
 INVALID: syntax error before -print- --> error: syntax error
-*************-DONE PARSING-*************
-*************-DONE-*************
-
-INVALID 
 -n ./programs/invalid/if3.min: 
 INVALID: syntax error before -end- --> error: syntax error
-*************-DONE PARSING-*************
-*************-DONE-*************
-
-INVALID 
 -n ./programs/invalid/if4.min: 
 INVALID: syntax error before -=- --> error: syntax error
-*************-DONE PARSING-*************
-*************-DONE-*************
-
-INVALID 
 -n ./programs/invalid/ifelse1.min: 
 INVALID: syntax error before -print- --> error: syntax error
-*************-DONE PARSING-*************
-*************-DONE-*************
-
-INVALID 
 -n ./programs/invalid/ifelse2.min: 
 INVALID: syntax error before -- --> error: syntax error
-*************-DONE PARSING-*************
-*************-DONE-*************
-
-INVALID 
 -n ./programs/invalid/ifelse3.min: 
 INVALID: syntax error before -;- --> error: syntax error
-*************-DONE PARSING-*************
-if 1 then 
-	print 1;
-else
-	print 0;
-endif
-*************-DONE-*************
-
-INVALID 
 -n ./programs/invalid/ifwhile1.min: 
 INVALID: syntax error before -endif- --> error: syntax error
-*************-DONE PARSING-*************
-*************-DONE-*************
-
-INVALID 
 -n ./programs/invalid/ifwhile2.min: 
 INVALID: syntax error before -done- --> error: syntax error
-*************-DONE PARSING-*************
-*************-DONE-*************
-
-INVALID 
 -n ./programs/invalid/invalid1.min: 
 INVALID: syntax error before -hello- --> error: syntax error
-*************-DONE PARSING-*************
-*************-DONE-*************
-
-INVALID 
 -n ./programs/invalid/invalid2.min: 
 INVALID: syntax error before -bye- --> error: syntax error
-*************-DONE PARSING-*************
-*************-DONE-*************
-
-INVALID 
 -n ./programs/invalid/invalid3.min: 
 INVALID: syntax error before -- --> error: syntax error
-*************-DONE PARSING-*************
-*************-DONE-*************
-
-INVALID 
 -n ./programs/invalid/invalid4.min: 
 INVALID: syntax error before -res- --> error: syntax error
-*************-DONE PARSING-*************
-*************-DONE-*************
-
-INVALID 
 -n ./programs/invalid/invalid5.min: 
 *************-DONE PARSING-*************
 var a : float;
@@ -242,153 +127,76 @@ done
 _doneString = "It is \" a \$ test";
 doneString = "done";
 print _doneString;
-*************-DONE-*************
-
-VALID 
+*************-DONE prettyPROG-*************
+*************-DONE makeProgramTable-*************
+Type Check exception at line 16. 
 -n ./programs/invalid/invalid6.min: 
 INVALID: syntax error before -1- --> error: syntax error
-*************-DONE PARSING-*************
-*************-DONE-*************
-
-INVALID 
 -n ./programs/invalid/invalid7.min: 
 INVALID: (line 1) unknown character '.'
+-n ./programs/invalid/invalid8.min: 
+*************-DONE PARSING-*************
+var a : float;
+var b : float;
+var res : float;
+var val : float;
+var doneString : string;
+read a;
+read b;
+res = ((a*b)+b);
+while res do
+	res = (res+-);
+done
+doneString = "It is done";
+print doneString;
+*************-DONE prettyPROG-*************
+*************-DONE makeProgramTable-*************
+Type Check exception at line 14. 
 -n ./programs/invalid/literal1.min: 
 INVALID: syntax error before -1- --> error: syntax error
-*************-DONE PARSING-*************
-*************-DONE-*************
-
-INVALID 
 -n ./programs/invalid/literal2.min: 
 INVALID: syntax error before -1.3- --> error: syntax error
-*************-DONE PARSING-*************
-*************-DONE-*************
-
-INVALID 
 -n ./programs/invalid/literal3.min: 
 INVALID: (line 2) unknown character '.'
 -n ./programs/invalid/literal4.min: 
 INVALID: (line 2) unknown character '.'
 -n ./programs/invalid/literal5.min: 
 INVALID: syntax error before -0- --> error: syntax error
-*************-DONE PARSING-*************
-*************-DONE-*************
-
-INVALID 
 -n ./programs/invalid/literal6.min: 
 INVALID: syntax error before -- --> error: syntax error
-*************-DONE PARSING-*************
-*************-DONE-*************
-
-INVALID 
 -n ./programs/invalid/literal8.min: 
 INVALID: syntax error before -world- --> error: syntax error
-*************-DONE PARSING-*************
-*************-DONE-*************
-
-INVALID 
 -n ./programs/invalid/no_semi_colon.min: 
 INVALID: syntax error before -s- --> error: syntax error
-*************-DONE PARSING-*************
-*************-DONE-*************
-
-INVALID 
 -n ./programs/invalid/stmt1.min: 
 INVALID: syntax error before -- --> error: syntax error
-*************-DONE PARSING-*************
-*************-DONE-*************
-
-INVALID 
 -n ./programs/invalid/stmt10.min: 
 INVALID: syntax error before -*- --> error: syntax error
-*************-DONE PARSING-*************
-*************-DONE-*************
-
-INVALID 
 -n ./programs/invalid/stmt2.min: 
 INVALID: syntax error before -- --> error: syntax error
-*************-DONE PARSING-*************
-*************-DONE-*************
-
-INVALID 
 -n ./programs/invalid/stmt3.min: 
 INVALID: syntax error before -- --> error: syntax error
-*************-DONE PARSING-*************
-*************-DONE-*************
-
-INVALID 
 -n ./programs/invalid/stmt4.min: 
 INVALID: syntax error before -;- --> error: syntax error
-*************-DONE PARSING-*************
-*************-DONE-*************
-
-INVALID 
 -n ./programs/invalid/stmt5.min: 
 INVALID: syntax error before -;- --> error: syntax error
-*************-DONE PARSING-*************
-*************-DONE-*************
-
-INVALID 
 -n ./programs/invalid/stmt6.min: 
 INVALID: syntax error before -18- --> error: syntax error
-*************-DONE PARSING-*************
-*************-DONE-*************
-
-INVALID 
 -n ./programs/invalid/stmt7.min: 
 INVALID: syntax error before -(- --> error: syntax error
-*************-DONE PARSING-*************
-*************-DONE-*************
-
-INVALID 
 -n ./programs/invalid/stmt8.min: 
 INVALID: syntax error before -;- --> error: syntax error
-*************-DONE PARSING-*************
-*************-DONE-*************
-
-INVALID 
 -n ./programs/invalid/stmt9.min: 
 INVALID: syntax error before -3- --> error: syntax error
-*************-DONE PARSING-*************
-*************-DONE-*************
-
-INVALID 
 -n ./programs/invalid/while1.min: 
 INVALID: syntax error before -print- --> error: syntax error
-*************-DONE PARSING-*************
-*************-DONE-*************
-
-INVALID 
 -n ./programs/invalid/while2.min: 
 INVALID: syntax error before -- --> error: syntax error
-*************-DONE PARSING-*************
-*************-DONE-*************
-
-INVALID 
 -n ./programs/invalid/while3.min: 
 INVALID: syntax error before -print- --> error: syntax error
-*************-DONE PARSING-*************
-*************-DONE-*************
-
-INVALID 
 -n ./programs/invalid/while4.min: 
 INVALID: syntax error before -do- --> error: syntax error
-*************-DONE PARSING-*************
-*************-DONE-*************
-
-INVALID 
 -n ./programs/invalid/while5.min: 
 INVALID: syntax error before -;- --> error: syntax error
-*************-DONE PARSING-*************
-while 1 do
-	print 0;
-done
-*************-DONE-*************
-
-INVALID 
 -n ./programs/invalid/while6.min: 
 INVALID: syntax error before -=- --> error: syntax error
-*************-DONE PARSING-*************
-*************-DONE-*************
-
-INVALID 

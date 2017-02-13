@@ -16,7 +16,7 @@ typedef struct PROG {
 
 typedef struct DECL {
 	int lineno;
-	struct TYPES *kind;
+	Types kind;
 	struct IDENT *identD;
 	struct DECL *next;
 } DECL;
@@ -52,13 +52,9 @@ typedef struct STMT {
 	struct STMT* next;
 } STMT;
 
-typedef struct TYPES {
-	Types type;
-} TYPES;
-
 typedef struct IDENT {
 	int lineno;
-	struct TYPES *type;
+	Types type;
 	char *ident;
 } IDENT;
 
@@ -66,6 +62,7 @@ typedef struct IDENT {
 typedef struct EXP {
 	int lineno;
 	ExpKinds kind;
+	Types type;
 	union {
 		int intconstE;
 		float floatconstE;
@@ -95,13 +92,7 @@ PROG *makePROG(DECL *decls, STMT *stmts, int lineno);
 
 DECL *makePROGdcls(DECL *decl, DECL *next, int lineno);
 
-DECL *makePROGdcl(IDENT *ident, TYPES *type, int lineno);
- 
-TYPES *makePROGdclInt();
-
-TYPES *makePROGdclFloat();
-
-TYPES *makePROGdclString();
+DECL *makePROGdcl(IDENT *ident, Types type, int lineno);
 
 STMT *makePROGstmts(STMT *stmt, STMT *next, int lineno);
 

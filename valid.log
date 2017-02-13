@@ -1,18 +1,27 @@
 -n ./programs/valid/blank.min: 
 *************-DONE PARSING-*************
-*************-DONE-*************
+*************-DONE prettyPROG-*************
+*************-DONE makeProgramTable-*************
+*************-DONE tcProgram-*************
+*************-DONE generateProg-*************
 
 VALID 
 -n ./programs/valid/comment.min: 
 *************-DONE PARSING-*************
-*************-DONE-*************
+*************-DONE prettyPROG-*************
+*************-DONE makeProgramTable-*************
+*************-DONE tcProgram-*************
+*************-DONE generateProg-*************
 
 VALID 
 -n ./programs/valid/decl1.min: 
 *************-DONE PARSING-*************
 var x : int;
 var itisanicevar : int;
-*************-DONE-*************
+*************-DONE prettyPROG-*************
+*************-DONE makeProgramTable-*************
+*************-DONE tcProgram-*************
+*************-DONE generateProg-*************
 
 VALID 
 -n ./programs/valid/decl2.min: 
@@ -21,32 +30,47 @@ var x : int;
 var T : int;
 var xT : int;
 var Tx : int;
-*************-DONE-*************
+*************-DONE prettyPROG-*************
+*************-DONE makeProgramTable-*************
+*************-DONE tcProgram-*************
+*************-DONE generateProg-*************
 
 VALID 
 -n ./programs/valid/decl3.min: 
 *************-DONE PARSING-*************
 var z_1 : int;
 var __z : int;
-*************-DONE-*************
+*************-DONE prettyPROG-*************
+*************-DONE makeProgramTable-*************
+*************-DONE tcProgram-*************
+*************-DONE generateProg-*************
 
 VALID 
 -n ./programs/valid/decl4.min: 
 *************-DONE PARSING-*************
 var x : float;
-*************-DONE-*************
+*************-DONE prettyPROG-*************
+*************-DONE makeProgramTable-*************
+*************-DONE tcProgram-*************
+*************-DONE generateProg-*************
 
 VALID 
 -n ./programs/valid/decl5.min: 
 *************-DONE PARSING-*************
 var x : string;
-*************-DONE-*************
+*************-DONE prettyPROG-*************
+*************-DONE makeProgramTable-*************
+*************-DONE tcProgram-*************
+*************-DONE generateProg-*************
 
 VALID 
 -n ./programs/valid/decl6.min: 
 *************-DONE PARSING-*************
 var ident000 : int;
-*************-DONE-*************
+*************-DONE prettyPROG-*************
+*************-DONE makeProgramTable-*************
+*************-DONE tcProgram-*************
+*************-DONE generateProg-*************
 
 VALID 
 -n ./programs/valid/expr1.min: 
@@ -57,7 +81,10 @@ var z : string;
 x = 3;
 y = 0.000000;
 z = "string";
-*************-DONE-*************
+*************-DONE prettyPROG-*************
+*************-DONE makeProgramTable-*************
+*************-DONE tcProgram-*************
+*************-DONE generateProg-*************
 
 VALID 
 -n ./programs/valid/expr2.min: 
@@ -67,14 +94,20 @@ x = (2+3);
 x = (2-3);
 x = (2*3);
 x = (2/3);
-*************-DONE-*************
+*************-DONE prettyPROG-*************
+*************-DONE makeProgramTable-*************
+*************-DONE tcProgram-*************
+*************-DONE generateProg-*************
 
 VALID 
 -n ./programs/valid/expr3.min: 
 *************-DONE PARSING-*************
 var x : int;
 x = -;
-*************-DONE-*************
+*************-DONE prettyPROG-*************
+*************-DONE makeProgramTable-*************
+*************-DONE tcProgram-*************
+*************-DONE generateProg-*************
 
 VALID 
 -n ./programs/valid/expr4.min: 
@@ -84,7 +117,10 @@ x = (0.000000+0.000000);
 x = (0.000000-0.000000);
 x = (0.000000*0.000000);
 x = (0.000000/0.000000);
-*************-DONE-*************
+*************-DONE prettyPROG-*************
+*************-DONE makeProgramTable-*************
+*************-DONE tcProgram-*************
+*************-DONE generateProg-*************
 
 VALID 
 -n ./programs/valid/expr5.min: 
@@ -92,14 +128,20 @@ VALID
 var x : int;
 x = (2*3);
 x = ((3*8)-3);
-*************-DONE-*************
+*************-DONE prettyPROG-*************
+*************-DONE makeProgramTable-*************
+*************-DONE tcProgram-*************
+*************-DONE generateProg-*************
 
 VALID 
 -n ./programs/valid/expr6.min: 
 *************-DONE PARSING-*************
 var x : float;
 x = ((0+0.010000)+(0.010000-(-/-)));
-*************-DONE-*************
+*************-DONE prettyPROG-*************
+*************-DONE makeProgramTable-*************
+*************-DONE tcProgram-*************
+*************-DONE generateProg-*************
 
 VALID 
 -n ./programs/valid/expr7.min: 
@@ -107,7 +149,10 @@ VALID
 var s : string;
 s = ("string"+"string");
 s = ("string"*3);
-*************-DONE-*************
+*************-DONE prettyPROG-*************
+*************-DONE makeProgramTable-*************
+*************-DONE tcProgram-*************
+*************-DONE generateProg-*************
 
 VALID 
 -n ./programs/valid/fib.min: 
@@ -128,7 +173,10 @@ while 1 do
 	done
 	print a;
 done
-*************-DONE-*************
+*************-DONE prettyPROG-*************
+*************-DONE makeProgramTable-*************
+*************-DONE tcProgram-*************
+*************-DONE generateProg-*************
 
 VALID 
 -n ./programs/valid/fib.pretty.min: 
@@ -149,7 +197,10 @@ while 1 do
 	done
 	print a;
 done
-*************-DONE-*************
+*************-DONE prettyPROG-*************
+*************-DONE makeProgramTable-*************
+*************-DONE tcProgram-*************
+*************-DONE generateProg-*************
 
 VALID 
 -n ./programs/valid/fibpretty.min: 
@@ -170,7 +221,10 @@ while 1 do
 	done
 	print a;
 done
-*************-DONE-*************
+*************-DONE prettyPROG-*************
+*************-DONE makeProgramTable-*************
+*************-DONE tcProgram-*************
+*************-DONE generateProg-*************
 
 VALID 
 -n ./programs/valid/if1.min: 
@@ -179,7 +233,10 @@ var x : int;
 if 1 then 
 	x = 0;
 	endif
-*************-DONE-*************
+*************-DONE prettyPROG-*************
+*************-DONE makeProgramTable-*************
+*************-DONE tcProgram-*************
+*************-DONE generateProg-*************
 
 VALID 
 -n ./programs/valid/if2.min: 
@@ -188,14 +245,20 @@ var x : int;
 if x then 
 	x = 0;
 	endif
-*************-DONE-*************
+*************-DONE prettyPROG-*************
+*************-DONE makeProgramTable-*************
+*************-DONE tcProgram-*************
+*************-DONE generateProg-*************
 
 VALID 
 -n ./programs/valid/if3.min: 
 *************-DONE PARSING-*************
 if 1 then 
 	endif
-*************-DONE-*************
+*************-DONE prettyPROG-*************
+*************-DONE makeProgramTable-*************
+*************-DONE tcProgram-*************
+*************-DONE generateProg-*************
 
 VALID 
 -n ./programs/valid/ifelse1.min: 
@@ -206,14 +269,20 @@ if 1 then
 else
 	x = 1;
 endif
-*************-DONE-*************
+*************-DONE prettyPROG-*************
+*************-DONE makeProgramTable-*************
+*************-DONE tcProgram-*************
+*************-DONE generateProg-*************
 
 VALID 
 -n ./programs/valid/ifelse2.min: 
 *************-DONE PARSING-*************
 if 1 then 
 	endif
-*************-DONE-*************
+*************-DONE prettyPROG-*************
+*************-DONE makeProgramTable-*************
+*************-DONE tcProgram-*************
+*************-DONE generateProg-*************
 
 VALID 
 -n ./programs/valid/ifwhile1.min: 
@@ -224,7 +293,10 @@ if 1 then
 		x = 1;
 	done
 	endif
-*************-DONE-*************
+*************-DONE prettyPROG-*************
+*************-DONE makeProgramTable-*************
+*************-DONE tcProgram-*************
+*************-DONE generateProg-*************
 
 VALID 
 -n ./programs/valid/ifwhile2.min: 
@@ -235,7 +307,10 @@ while 1 do
 		x = 1;
 		endif
 done
-*************-DONE-*************
+*************-DONE prettyPROG-*************
+*************-DONE makeProgramTable-*************
+*************-DONE tcProgram-*************
+*************-DONE generateProg-*************
 
 VALID 
 -n ./programs/valid/literal1.min: 
@@ -244,14 +319,20 @@ var x : int;
 x = 0;
 x = 1;
 x = 10;
-*************-DONE-*************
+*************-DONE prettyPROG-*************
+*************-DONE makeProgramTable-*************
+*************-DONE tcProgram-*************
+*************-DONE generateProg-*************
 
 VALID 
 -n ./programs/valid/literal2.min: 
 *************-DONE PARSING-*************
 var z_1 : string;
 z_1 = ":~#$%^&*-+/`<>=_|';:{}[]()\"\a\b \f\n\r\t\v\\ ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 0123456789";
-*************-DONE-*************
+*************-DONE prettyPROG-*************
+*************-DONE makeProgramTable-*************
+*************-DONE tcProgram-*************
+*************-DONE generateProg-*************
 
 VALID 
 -n ./programs/valid/literal3.min: 
@@ -261,7 +342,10 @@ x = 0.100000;
 x = 1.100000;
 x = 0.000000;
 x = 0.010000;
-*************-DONE-*************
+*************-DONE prettyPROG-*************
+*************-DONE makeProgramTable-*************
+*************-DONE tcProgram-*************
+*************-DONE generateProg-*************
 
 VALID 
 -n ./programs/valid/sqrt.min: 
@@ -280,34 +364,49 @@ while iter do
 done
 print guess;
 print (guess*guess);
-*************-DONE-*************
+*************-DONE prettyPROG-*************
+*************-DONE makeProgramTable-*************
+*************-DONE tcProgram-*************
+*************-DONE generateProg-*************
 
 VALID 
 -n ./programs/valid/stmt1.min: 
 *************-DONE PARSING-*************
 var x : int;
 read x;
-*************-DONE-*************
+*************-DONE prettyPROG-*************
+*************-DONE makeProgramTable-*************
+*************-DONE tcProgram-*************
+*************-DONE generateProg-*************
 
 VALID 
 -n ./programs/valid/stmt2.min: 
 *************-DONE PARSING-*************
 print 0;
-*************-DONE-*************
+*************-DONE prettyPROG-*************
+*************-DONE makeProgramTable-*************
+*************-DONE tcProgram-*************
+*************-DONE generateProg-*************
 
 VALID 
 -n ./programs/valid/stmt3.min: 
 *************-DONE PARSING-*************
 var x : int;
 print (3*x);
-*************-DONE-*************
+*************-DONE prettyPROG-*************
+*************-DONE makeProgramTable-*************
+*************-DONE tcProgram-*************
+*************-DONE generateProg-*************
 
 VALID 
 -n ./programs/valid/stmt4.min: 
 *************-DONE PARSING-*************
 var x : string;
 x = "mystring";
-*************-DONE-*************
+*************-DONE prettyPROG-*************
+*************-DONE makeProgramTable-*************
+*************-DONE tcProgram-*************
+*************-DONE generateProg-*************
 
 VALID 
 -n ./programs/valid/stmt5.min: 
@@ -315,18 +414,21 @@ VALID
 var x : int;
 var y : int;
 x = y;
-*************-DONE-*************
+*************-DONE prettyPROG-*************
+*************-DONE makeProgramTable-*************
+*************-DONE tcProgram-*************
+*************-DONE generateProg-*************
 
 VALID 
 -n ./programs/valid/valid1.min: 
 *************-DONE PARSING-*************
-var a : float;
-var b : float;
-var c : float;
+var a : int;
+var b : int;
+var c : int;
 var hello : string;
 var bye : string;
 read a;
-b = 0.000000;
+b = 0;
 hello = "hello";
 bye = "This is a \"complicated\"  ~ ` < % | \a \b \f \v ? @ {} \n \r \t bye";
 c = (a+-);
@@ -336,25 +438,10 @@ else
 	print hello;
 endif
 print c;
-*************-DONE-*************
-
-VALID 
--n ./programs/valid/valid2.min: 
-*************-DONE PARSING-*************
-var a : float;
-var b : float;
-var res : float;
-var val : float;
-var doneString : string;
-read a;
-read b;
-res = ((a*b)+b);
-while res do
-	res = (res+-);
-done
-doneString = "It is done";
-print doneString;
-*************-DONE-*************
+*************-DONE prettyPROG-*************
+*************-DONE makeProgramTable-*************
+*************-DONE tcProgram-*************
+*************-DONE generateProg-*************
 
 VALID 
 -n ./programs/valid/while1.min: 
@@ -363,7 +450,10 @@ var x : int;
 while 1 do
 	x = 1;
 done
-*************-DONE-*************
+*************-DONE prettyPROG-*************
+*************-DONE makeProgramTable-*************
+*************-DONE tcProgram-*************
+*************-DONE generateProg-*************
 
 VALID 
 -n ./programs/valid/while2.min: 
@@ -372,13 +462,19 @@ var x : int;
 while x do
 	x = 1;
 done
-*************-DONE-*************
+*************-DONE prettyPROG-*************
+*************-DONE makeProgramTable-*************
+*************-DONE tcProgram-*************
+*************-DONE generateProg-*************
 
 VALID 
 -n ./programs/valid/while3.min: 
 *************-DONE PARSING-*************
 while 1 do
 done
-*************-DONE-*************
+*************-DONE prettyPROG-*************
+*************-DONE makeProgramTable-*************
+*************-DONE tcProgram-*************
+*************-DONE generateProg-*************
 
 VALID 

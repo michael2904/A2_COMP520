@@ -13,7 +13,7 @@ void prettyPROG(PROG *prog){
 
 void prettyDECL(DECL *d){
 	if(d != NULL){
-		switch (d->kind->type) {
+		switch (d->kind) {
 			case intK:
 				printf("var %s : int;\n",d->identD->ident);
 				break;

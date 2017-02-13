@@ -1,5 +1,6 @@
 %{
 	#include <stdio.h>   /* for printf */
+	#include <stdlib.h>   /* for printf */
 	#include "tree.h"
 	extern char *yytext; /* string from scanner */
 	extern int yylex();
@@ -7,6 +8,7 @@
 	extern FILE *yyin;
 	void yyerror(char* s) {
 		fprintf (stderr,"INVALID: syntax error before -%s- --> error: %s\n", yytext,s); 
+		exit(1);
 	}
 	extern PROG *theprogram;
 
@@ -21,7 +23,6 @@
 	struct STMT *stmt;
 	struct IDENT *ident;
 	struct EXP *exp;
-	struct TYPES *type;
 }
 
 %token <intconst> tINTCONST
@@ -48,7 +49,6 @@
 %type <stmt> stmts stmt read print assign ifst midIf whileloop
 %type <dcl> dcls dcl
 %type <exp> exp
-%type <type> type
 
 %start program
 %left '+' '-'
@@ -67,17 +67,14 @@ dcls :		dcl dcls
 				{$$ = NULL;}
 ;
 
-dcl : 		tVAR tIDENTIFIER ':' type ';'
-				{ $$ = makePROGdcl (makePROGid($2,@1.first_line),$4,@1.first_line);}
+dcl : 		tVAR tIDENTIFIER ':' tINT ';'
+				{ $$ = makePROGdcl (makePROGid($2,@1.first_line),intK,@1.first_line);}
+			| tVAR tIDENTIFIER ':' tFLOAT ';'
+				{ $$ = makePROGdcl (makePROGid($2,@1.first_line),floatK,@1.first_line);}
+			| tVAR tIDENTIFIER ':' tSTRING ';'
+				{ $$ = makePROGdcl (makePROGid($2,@1.first_line),stringK,@1.first_line);}
 ;
 
-type :		tINT
-				{$$ = makePROGdclInt();}
-			| tFLOAT
-				{$$ = makePROGdclFloat();}
-			| tSTRING
-				{$$ = makePROGdclString();}
-;
 
 stmts : 	stmt stmts 
 				{$$ = makePROGstmts ($1,$2,@1.first_line);}
