@@ -1,684 +1,144 @@
 ./programs/valid/blank.min: reading file ./programs/valid/blank.min
-prettyFilePath - ./pretty/valid/blank.pretty.min----
-symbolFilePath - ./symbol/valid/blank.symbol.txt----
-generatedFilePath - ./generated/valid/blank.c----
-prettyFilePath - ./pretty/valid/blank.pretty.min----
-symbolFilePath - ./symbol/valid/blank.symbol.txt----
-generatedFilePath - ./generated/valid/blank.c----
--./pretty/valid/blank.pretty.min-
 symbolFilePath-./symbol/valid/blank.symbol.txt-
-#include <stdio.h>
-#include <stdlib.h>
-void main(){
-}
 
 VALID 
 ./programs/valid/comment.min: reading file ./programs/valid/comment.min
-prettyFilePath - ./pretty/valid/comment.pretty.min----
-symbolFilePath - ./symbol/valid/comment.symbol.txt----
-generatedFilePath - ./generated/valid/comment.c----
-prettyFilePath - ./pretty/valid/comment.pretty.min----
-symbolFilePath - ./symbol/valid/comment.symbol.txt----
-generatedFilePath - ./generated/valid/comment.c----
--./pretty/valid/comment.pretty.min-
 symbolFilePath-./symbol/valid/comment.symbol.txt-
-#include <stdio.h>
-#include <stdlib.h>
-void main(){
-}
 
 VALID 
 ./programs/valid/decl1.min: reading file ./programs/valid/decl1.min
-prettyFilePath - ./pretty/valid/decl1.pretty.min----
-symbolFilePath - ./symbol/valid/decl1.symbol.txt----
-generatedFilePath - ./generated/valid/decl1.c----
-prettyFilePath - ./pretty/valid/decl1.pretty.min----
-symbolFilePath - ./symbol/valid/decl1.symbol.txt----
-generatedFilePath - ./generated/valid/decl1.c----
--./pretty/valid/decl1.pretty.min-
 symbolFilePath-./symbol/valid/decl1.symbol.txt-
-#include <stdio.h>
-#include <stdlib.h>
-void main(){
-int x;
-int itisanicevar;
-}
 
 VALID 
 ./programs/valid/decl2.min: reading file ./programs/valid/decl2.min
-prettyFilePath - ./pretty/valid/decl2.pretty.min----
-symbolFilePath - ./symbol/valid/decl2.symbol.txt----
-generatedFilePath - ./generated/valid/decl2.c----
-prettyFilePath - ./pretty/valid/decl2.pretty.min----
-symbolFilePath - ./symbol/valid/decl2.symbol.txt----
-generatedFilePath - ./generated/valid/decl2.c----
--./pretty/valid/decl2.pretty.min-
 symbolFilePath-./symbol/valid/decl2.symbol.txt-
-#include <stdio.h>
-#include <stdlib.h>
-void main(){
-int x;
-int T;
-int xT;
-int Tx;
-}
 
 VALID 
 ./programs/valid/decl3.min: reading file ./programs/valid/decl3.min
-prettyFilePath - ./pretty/valid/decl3.pretty.min----
-symbolFilePath - ./symbol/valid/decl3.symbol.txt----
-generatedFilePath - ./generated/valid/decl3.c----
-prettyFilePath - ./pretty/valid/decl3.pretty.min----
-symbolFilePath - ./symbol/valid/decl3.symbol.txt----
-generatedFilePath - ./generated/valid/decl3.c----
--./pretty/valid/decl3.pretty.min-
 symbolFilePath-./symbol/valid/decl3.symbol.txt-
-#include <stdio.h>
-#include <stdlib.h>
-void main(){
-int z_1;
-int __z;
-}
 
 VALID 
 ./programs/valid/decl4.min: reading file ./programs/valid/decl4.min
-prettyFilePath - ./pretty/valid/decl4.pretty.min----
-symbolFilePath - ./symbol/valid/decl4.symbol.txt----
-generatedFilePath - ./generated/valid/decl4.c----
-prettyFilePath - ./pretty/valid/decl4.pretty.min----
-symbolFilePath - ./symbol/valid/decl4.symbol.txt----
-generatedFilePath - ./generated/valid/decl4.c----
--./pretty/valid/decl4.pretty.min-
 symbolFilePath-./symbol/valid/decl4.symbol.txt-
-#include <stdio.h>
-#include <stdlib.h>
-void main(){
-float x;
-}
 
 VALID 
 ./programs/valid/decl5.min: reading file ./programs/valid/decl5.min
-prettyFilePath - ./pretty/valid/decl5.pretty.min----
-symbolFilePath - ./symbol/valid/decl5.symbol.txt----
-generatedFilePath - ./generated/valid/decl5.c----
-prettyFilePath - ./pretty/valid/decl5.pretty.min----
-symbolFilePath - ./symbol/valid/decl5.symbol.txt----
-generatedFilePath - ./generated/valid/decl5.c----
--./pretty/valid/decl5.pretty.min-
 symbolFilePath-./symbol/valid/decl5.symbol.txt-
-#include <stdio.h>
-#include <stdlib.h>
-void main(){
-char x[4096];
-}
 
 VALID 
 ./programs/valid/decl6.min: reading file ./programs/valid/decl6.min
-prettyFilePath - ./pretty/valid/decl6.pretty.min----
-symbolFilePath - ./symbol/valid/decl6.symbol.txt----
-generatedFilePath - ./generated/valid/decl6.c----
-prettyFilePath - ./pretty/valid/decl6.pretty.min----
-symbolFilePath - ./symbol/valid/decl6.symbol.txt----
-generatedFilePath - ./generated/valid/decl6.c----
--./pretty/valid/decl6.pretty.min-
 symbolFilePath-./symbol/valid/decl6.symbol.txt-
-#include <stdio.h>
-#include <stdlib.h>
-void main(){
-int ident000;
-}
 
 VALID 
 ./programs/valid/expr1.min: reading file ./programs/valid/expr1.min
-prettyFilePath - ./pretty/valid/expr1.pretty.min----
-symbolFilePath - ./symbol/valid/expr1.symbol.txt----
-generatedFilePath - ./generated/valid/expr1.c----
-prettyFilePath - ./pretty/valid/expr1.pretty.min----
-symbolFilePath - ./symbol/valid/expr1.symbol.txt----
-generatedFilePath - ./generated/valid/expr1.c----
--./pretty/valid/expr1.pretty.min-
 symbolFilePath-./symbol/valid/expr1.symbol.txt-
-#include <stdio.h>
-#include <stdlib.h>
-void main(){
-int x;
-float y;
-char z[4096];
-x = 3;
-y = 0.000000;
-z = "string";
-}
 
 VALID 
 ./programs/valid/expr2.min: reading file ./programs/valid/expr2.min
-prettyFilePath - ./pretty/valid/expr2.pretty.min----
-symbolFilePath - ./symbol/valid/expr2.symbol.txt----
-generatedFilePath - ./generated/valid/expr2.c----
-prettyFilePath - ./pretty/valid/expr2.pretty.min----
-symbolFilePath - ./symbol/valid/expr2.symbol.txt----
-generatedFilePath - ./generated/valid/expr2.c----
--./pretty/valid/expr2.pretty.min-
 symbolFilePath-./symbol/valid/expr2.symbol.txt-
-#include <stdio.h>
-#include <stdlib.h>
-void main(){
-int x;
-x = 2 + 3;
-x = 2 - 3;
-x = 2 * 3;
-x = 2 / 3;
-}
 
 VALID 
 ./programs/valid/expr3.min: reading file ./programs/valid/expr3.min
-prettyFilePath - ./pretty/valid/expr3.pretty.min----
-symbolFilePath - ./symbol/valid/expr3.symbol.txt----
-generatedFilePath - ./generated/valid/expr3.c----
-prettyFilePath - ./pretty/valid/expr3.pretty.min----
-symbolFilePath - ./symbol/valid/expr3.symbol.txt----
-generatedFilePath - ./generated/valid/expr3.c----
--./pretty/valid/expr3.pretty.min-
 symbolFilePath-./symbol/valid/expr3.symbol.txt-
-#include <stdio.h>
-#include <stdlib.h>
-void main(){
-int x;
-x =  -  - 3;
-}
 
 VALID 
 ./programs/valid/expr4.min: reading file ./programs/valid/expr4.min
-prettyFilePath - ./pretty/valid/expr4.pretty.min----
-symbolFilePath - ./symbol/valid/expr4.symbol.txt----
-generatedFilePath - ./generated/valid/expr4.c----
-prettyFilePath - ./pretty/valid/expr4.pretty.min----
-symbolFilePath - ./symbol/valid/expr4.symbol.txt----
-generatedFilePath - ./generated/valid/expr4.c----
--./pretty/valid/expr4.pretty.min-
 symbolFilePath-./symbol/valid/expr4.symbol.txt-
-#include <stdio.h>
-#include <stdlib.h>
-void main(){
-float x;
-x = 0.000000 + 0.000000;
-x = 0.000000 - 0.000000;
-x = 0.000000 * 0.000000;
-x = 0.000000 / 0.000000;
-}
 
 VALID 
 ./programs/valid/expr5.min: reading file ./programs/valid/expr5.min
-prettyFilePath - ./pretty/valid/expr5.pretty.min----
-symbolFilePath - ./symbol/valid/expr5.symbol.txt----
-generatedFilePath - ./generated/valid/expr5.c----
-prettyFilePath - ./pretty/valid/expr5.pretty.min----
-symbolFilePath - ./symbol/valid/expr5.symbol.txt----
-generatedFilePath - ./generated/valid/expr5.c----
--./pretty/valid/expr5.pretty.min-
 symbolFilePath-./symbol/valid/expr5.symbol.txt-
-#include <stdio.h>
-#include <stdlib.h>
-void main(){
-int x;
-x = 2 * 3;
-x = 3 * 8 - 3;
-}
 
 VALID 
 ./programs/valid/expr6.min: reading file ./programs/valid/expr6.min
-prettyFilePath - ./pretty/valid/expr6.pretty.min----
-symbolFilePath - ./symbol/valid/expr6.symbol.txt----
-generatedFilePath - ./generated/valid/expr6.c----
-prettyFilePath - ./pretty/valid/expr6.pretty.min----
-symbolFilePath - ./symbol/valid/expr6.symbol.txt----
-generatedFilePath - ./generated/valid/expr6.c----
--./pretty/valid/expr6.pretty.min-
 symbolFilePath-./symbol/valid/expr6.symbol.txt-
-#include <stdio.h>
-#include <stdlib.h>
-void main(){
-float x;
-x = 0 + 0.010000 + 0.010000 -  - 1.098240 /  - 0.013210 *  -  -  -  - 902;
-}
 
 VALID 
 ./programs/valid/expr7.min: reading file ./programs/valid/expr7.min
-prettyFilePath - ./pretty/valid/expr7.pretty.min----
-symbolFilePath - ./symbol/valid/expr7.symbol.txt----
-generatedFilePath - ./generated/valid/expr7.c----
-prettyFilePath - ./pretty/valid/expr7.pretty.min----
-symbolFilePath - ./symbol/valid/expr7.symbol.txt----
-generatedFilePath - ./generated/valid/expr7.c----
--./pretty/valid/expr7.pretty.min-
 symbolFilePath-./symbol/valid/expr7.symbol.txt-
-#include <stdio.h>
-#include <stdlib.h>
-void main(){
-char s[4096];
-s = "stringstring";
-s = "stringstringstring";
-}
 
 VALID 
 ./programs/valid/fib.min: reading file ./programs/valid/fib.min
-prettyFilePath - ./pretty/valid/fib.pretty.min----
-symbolFilePath - ./symbol/valid/fib.symbol.txt----
-generatedFilePath - ./generated/valid/fib.c----
-prettyFilePath - ./pretty/valid/fib.pretty.min----
-symbolFilePath - ./symbol/valid/fib.symbol.txt----
-generatedFilePath - ./generated/valid/fib.c----
--./pretty/valid/fib.pretty.min-
 symbolFilePath-./symbol/valid/fib.symbol.txt-
-#include <stdio.h>
-#include <stdlib.h>
-void main(){
-int a;
-int b;
-int n;
-int t;
-while (1) {
-scanf("%d", &n);
-a = 0;
-b = 1;
-while (n) {
-t = a;
-a = b;
-b = b + t;
-n = n - 1;
-}
-printf("%d", a);
-}
-}
 
 VALID 
 ./programs/valid/if1.min: reading file ./programs/valid/if1.min
-prettyFilePath - ./pretty/valid/if1.pretty.min----
-symbolFilePath - ./symbol/valid/if1.symbol.txt----
-generatedFilePath - ./generated/valid/if1.c----
-prettyFilePath - ./pretty/valid/if1.pretty.min----
-symbolFilePath - ./symbol/valid/if1.symbol.txt----
-generatedFilePath - ./generated/valid/if1.c----
--./pretty/valid/if1.pretty.min-
 symbolFilePath-./symbol/valid/if1.symbol.txt-
-#include <stdio.h>
-#include <stdlib.h>
-void main(){
-int x;
-if (1) {
-x = 0;
-}
-}
 
 VALID 
 ./programs/valid/if2.min: reading file ./programs/valid/if2.min
-prettyFilePath - ./pretty/valid/if2.pretty.min----
-symbolFilePath - ./symbol/valid/if2.symbol.txt----
-generatedFilePath - ./generated/valid/if2.c----
-prettyFilePath - ./pretty/valid/if2.pretty.min----
-symbolFilePath - ./symbol/valid/if2.symbol.txt----
-generatedFilePath - ./generated/valid/if2.c----
--./pretty/valid/if2.pretty.min-
 symbolFilePath-./symbol/valid/if2.symbol.txt-
-#include <stdio.h>
-#include <stdlib.h>
-void main(){
-int x;
-if (x) {
-x = 0;
-}
-}
 
 VALID 
 ./programs/valid/if3.min: reading file ./programs/valid/if3.min
-prettyFilePath - ./pretty/valid/if3.pretty.min----
-symbolFilePath - ./symbol/valid/if3.symbol.txt----
-generatedFilePath - ./generated/valid/if3.c----
-prettyFilePath - ./pretty/valid/if3.pretty.min----
-symbolFilePath - ./symbol/valid/if3.symbol.txt----
-generatedFilePath - ./generated/valid/if3.c----
--./pretty/valid/if3.pretty.min-
 symbolFilePath-./symbol/valid/if3.symbol.txt-
-#include <stdio.h>
-#include <stdlib.h>
-void main(){
-if (1) {
-}
-}
 
 VALID 
 ./programs/valid/ifelse1.min: reading file ./programs/valid/ifelse1.min
-prettyFilePath - ./pretty/valid/ifelse1.pretty.min----
-symbolFilePath - ./symbol/valid/ifelse1.symbol.txt----
-generatedFilePath - ./generated/valid/ifelse1.c----
-prettyFilePath - ./pretty/valid/ifelse1.pretty.min----
-symbolFilePath - ./symbol/valid/ifelse1.symbol.txt----
-generatedFilePath - ./generated/valid/ifelse1.c----
--./pretty/valid/ifelse1.pretty.min-
 symbolFilePath-./symbol/valid/ifelse1.symbol.txt-
-#include <stdio.h>
-#include <stdlib.h>
-void main(){
-int x;
-if (1) {
-x = 0;
-} else {
-x = 1;
-}
-}
 
 VALID 
 ./programs/valid/ifelse2.min: reading file ./programs/valid/ifelse2.min
-prettyFilePath - ./pretty/valid/ifelse2.pretty.min----
-symbolFilePath - ./symbol/valid/ifelse2.symbol.txt----
-generatedFilePath - ./generated/valid/ifelse2.c----
-prettyFilePath - ./pretty/valid/ifelse2.pretty.min----
-symbolFilePath - ./symbol/valid/ifelse2.symbol.txt----
-generatedFilePath - ./generated/valid/ifelse2.c----
--./pretty/valid/ifelse2.pretty.min-
 symbolFilePath-./symbol/valid/ifelse2.symbol.txt-
-#include <stdio.h>
-#include <stdlib.h>
-void main(){
-if (1) {
-}
-}
 
 VALID 
 ./programs/valid/ifwhile1.min: reading file ./programs/valid/ifwhile1.min
-prettyFilePath - ./pretty/valid/ifwhile1.pretty.min----
-symbolFilePath - ./symbol/valid/ifwhile1.symbol.txt----
-generatedFilePath - ./generated/valid/ifwhile1.c----
-prettyFilePath - ./pretty/valid/ifwhile1.pretty.min----
-symbolFilePath - ./symbol/valid/ifwhile1.symbol.txt----
-generatedFilePath - ./generated/valid/ifwhile1.c----
--./pretty/valid/ifwhile1.pretty.min-
 symbolFilePath-./symbol/valid/ifwhile1.symbol.txt-
-#include <stdio.h>
-#include <stdlib.h>
-void main(){
-int x;
-if (1) {
-while (1) {
-x = 1;
-}
-}
-}
 
 VALID 
 ./programs/valid/ifwhile2.min: reading file ./programs/valid/ifwhile2.min
-prettyFilePath - ./pretty/valid/ifwhile2.pretty.min----
-symbolFilePath - ./symbol/valid/ifwhile2.symbol.txt----
-generatedFilePath - ./generated/valid/ifwhile2.c----
-prettyFilePath - ./pretty/valid/ifwhile2.pretty.min----
-symbolFilePath - ./symbol/valid/ifwhile2.symbol.txt----
-generatedFilePath - ./generated/valid/ifwhile2.c----
--./pretty/valid/ifwhile2.pretty.min-
 symbolFilePath-./symbol/valid/ifwhile2.symbol.txt-
-#include <stdio.h>
-#include <stdlib.h>
-void main(){
-int x;
-while (1) {
-if (1) {
-x = 1;
-}
-}
-}
 
 VALID 
 ./programs/valid/literal1.min: reading file ./programs/valid/literal1.min
-prettyFilePath - ./pretty/valid/literal1.pretty.min----
-symbolFilePath - ./symbol/valid/literal1.symbol.txt----
-generatedFilePath - ./generated/valid/literal1.c----
-prettyFilePath - ./pretty/valid/literal1.pretty.min----
-symbolFilePath - ./symbol/valid/literal1.symbol.txt----
-generatedFilePath - ./generated/valid/literal1.c----
--./pretty/valid/literal1.pretty.min-
 symbolFilePath-./symbol/valid/literal1.symbol.txt-
-#include <stdio.h>
-#include <stdlib.h>
-void main(){
-int x;
-x = 0;
-x = 1;
-x = 10;
-}
 
 VALID 
 ./programs/valid/literal2.min: reading file ./programs/valid/literal2.min
-prettyFilePath - ./pretty/valid/literal2.pretty.min----
-symbolFilePath - ./symbol/valid/literal2.symbol.txt----
-generatedFilePath - ./generated/valid/literal2.c----
-prettyFilePath - ./pretty/valid/literal2.pretty.min----
-symbolFilePath - ./symbol/valid/literal2.symbol.txt----
-generatedFilePath - ./generated/valid/literal2.c----
--./pretty/valid/literal2.pretty.min-
 symbolFilePath-./symbol/valid/literal2.symbol.txt-
-#include <stdio.h>
-#include <stdlib.h>
-void main(){
-char z_1[4096];
-z_1 = ":~#$%^&*-+/`<>=_|';:{}[]()\"\a\b \f\n\r\t\v\\ ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 0123456789";
-}
 
 VALID 
 ./programs/valid/literal3.min: reading file ./programs/valid/literal3.min
-prettyFilePath - ./pretty/valid/literal3.pretty.min----
-symbolFilePath - ./symbol/valid/literal3.symbol.txt----
-generatedFilePath - ./generated/valid/literal3.c----
-prettyFilePath - ./pretty/valid/literal3.pretty.min----
-symbolFilePath - ./symbol/valid/literal3.symbol.txt----
-generatedFilePath - ./generated/valid/literal3.c----
--./pretty/valid/literal3.pretty.min-
 symbolFilePath-./symbol/valid/literal3.symbol.txt-
-#include <stdio.h>
-#include <stdlib.h>
-void main(){
-float x;
-x = 0.100000;
-x = 1.100000;
-x = 0.000000;
-x = 0.010000;
-}
 
 VALID 
 ./programs/valid/sqrt.min: reading file ./programs/valid/sqrt.min
-prettyFilePath - ./pretty/valid/sqrt.pretty.min----
-symbolFilePath - ./symbol/valid/sqrt.symbol.txt----
-generatedFilePath - ./generated/valid/sqrt.c----
-prettyFilePath - ./pretty/valid/sqrt.pretty.min----
-symbolFilePath - ./symbol/valid/sqrt.symbol.txt----
-generatedFilePath - ./generated/valid/sqrt.c----
--./pretty/valid/sqrt.pretty.min-
 symbolFilePath-./symbol/valid/sqrt.symbol.txt-
-#include <stdio.h>
-#include <stdlib.h>
-void main(){
-float x;
-float guess;
-float quot;
-int iter;
-scanf("%f", &x);
-guess = 1;
-iter = 10;
-while (iter) {
-quot = x / guess;
-guess = 0.500000 * guess + quot;
-iter = iter - 1;
-}
-printf("%f", guess);
-printf("%f", guess * guess);
-}
 
 VALID 
 ./programs/valid/stmt1.min: reading file ./programs/valid/stmt1.min
-prettyFilePath - ./pretty/valid/stmt1.pretty.min----
-symbolFilePath - ./symbol/valid/stmt1.symbol.txt----
-generatedFilePath - ./generated/valid/stmt1.c----
-prettyFilePath - ./pretty/valid/stmt1.pretty.min----
-symbolFilePath - ./symbol/valid/stmt1.symbol.txt----
-generatedFilePath - ./generated/valid/stmt1.c----
--./pretty/valid/stmt1.pretty.min-
 symbolFilePath-./symbol/valid/stmt1.symbol.txt-
-#include <stdio.h>
-#include <stdlib.h>
-void main(){
-int x;
-scanf("%d", &x);
-}
 
 VALID 
 ./programs/valid/stmt2.min: reading file ./programs/valid/stmt2.min
-prettyFilePath - ./pretty/valid/stmt2.pretty.min----
-symbolFilePath - ./symbol/valid/stmt2.symbol.txt----
-generatedFilePath - ./generated/valid/stmt2.c----
-prettyFilePath - ./pretty/valid/stmt2.pretty.min----
-symbolFilePath - ./symbol/valid/stmt2.symbol.txt----
-generatedFilePath - ./generated/valid/stmt2.c----
--./pretty/valid/stmt2.pretty.min-
 symbolFilePath-./symbol/valid/stmt2.symbol.txt-
-#include <stdio.h>
-#include <stdlib.h>
-void main(){
-printf("%d", 0);
-}
 
 VALID 
 ./programs/valid/stmt3.min: reading file ./programs/valid/stmt3.min
-prettyFilePath - ./pretty/valid/stmt3.pretty.min----
-symbolFilePath - ./symbol/valid/stmt3.symbol.txt----
-generatedFilePath - ./generated/valid/stmt3.c----
-prettyFilePath - ./pretty/valid/stmt3.pretty.min----
-symbolFilePath - ./symbol/valid/stmt3.symbol.txt----
-generatedFilePath - ./generated/valid/stmt3.c----
--./pretty/valid/stmt3.pretty.min-
 symbolFilePath-./symbol/valid/stmt3.symbol.txt-
-#include <stdio.h>
-#include <stdlib.h>
-void main(){
-int x;
-printf("%d", 3 * x);
-}
 
 VALID 
 ./programs/valid/stmt4.min: reading file ./programs/valid/stmt4.min
-prettyFilePath - ./pretty/valid/stmt4.pretty.min----
-symbolFilePath - ./symbol/valid/stmt4.symbol.txt----
-generatedFilePath - ./generated/valid/stmt4.c----
-prettyFilePath - ./pretty/valid/stmt4.pretty.min----
-symbolFilePath - ./symbol/valid/stmt4.symbol.txt----
-generatedFilePath - ./generated/valid/stmt4.c----
--./pretty/valid/stmt4.pretty.min-
 symbolFilePath-./symbol/valid/stmt4.symbol.txt-
-#include <stdio.h>
-#include <stdlib.h>
-void main(){
-char x[4096];
-x = "mystring";
-}
 
 VALID 
 ./programs/valid/stmt5.min: reading file ./programs/valid/stmt5.min
-prettyFilePath - ./pretty/valid/stmt5.pretty.min----
-symbolFilePath - ./symbol/valid/stmt5.symbol.txt----
-generatedFilePath - ./generated/valid/stmt5.c----
-prettyFilePath - ./pretty/valid/stmt5.pretty.min----
-symbolFilePath - ./symbol/valid/stmt5.symbol.txt----
-generatedFilePath - ./generated/valid/stmt5.c----
--./pretty/valid/stmt5.pretty.min-
 symbolFilePath-./symbol/valid/stmt5.symbol.txt-
-#include <stdio.h>
-#include <stdlib.h>
-void main(){
-int x;
-int y;
-x = y;
-}
 
 VALID 
 ./programs/valid/valid1.min: reading file ./programs/valid/valid1.min
-prettyFilePath - ./pretty/valid/valid1.pretty.min----
-symbolFilePath - ./symbol/valid/valid1.symbol.txt----
-generatedFilePath - ./generated/valid/valid1.c----
-prettyFilePath - ./pretty/valid/valid1.pretty.min----
-symbolFilePath - ./symbol/valid/valid1.symbol.txt----
-generatedFilePath - ./generated/valid/valid1.c----
--./pretty/valid/valid1.pretty.min-
 symbolFilePath-./symbol/valid/valid1.symbol.txt-
-#include <stdio.h>
-#include <stdlib.h>
-void main(){
-int a;
-int b;
-int c;
-char hello[4096];
-char bye[4096];
-scanf("%d", &a);
-b = 0;
-hello = "hello";
-bye = "This is a \"complicated\"  ~ ` < % | \a \b \f \v ? @ {} \n \r \t bye";
-c = a +  - b;
-if (c) {
-printf("%s", bye);
-} else {
-printf("%s", hello);
-}
-printf("%d", c);
-}
 
 VALID 
 ./programs/valid/while1.min: reading file ./programs/valid/while1.min
-prettyFilePath - ./pretty/valid/while1.pretty.min----
-symbolFilePath - ./symbol/valid/while1.symbol.txt----
-generatedFilePath - ./generated/valid/while1.c----
-prettyFilePath - ./pretty/valid/while1.pretty.min----
-symbolFilePath - ./symbol/valid/while1.symbol.txt----
-generatedFilePath - ./generated/valid/while1.c----
--./pretty/valid/while1.pretty.min-
 symbolFilePath-./symbol/valid/while1.symbol.txt-
-#include <stdio.h>
-#include <stdlib.h>
-void main(){
-int x;
-while (1) {
-x = 1;
-}
-}
 
 VALID 
 ./programs/valid/while2.min: reading file ./programs/valid/while2.min
-prettyFilePath - ./pretty/valid/while2.pretty.min----
-symbolFilePath - ./symbol/valid/while2.symbol.txt----
-generatedFilePath - ./generated/valid/while2.c----
-prettyFilePath - ./pretty/valid/while2.pretty.min----
-symbolFilePath - ./symbol/valid/while2.symbol.txt----
-generatedFilePath - ./generated/valid/while2.c----
--./pretty/valid/while2.pretty.min-
 symbolFilePath-./symbol/valid/while2.symbol.txt-
-#include <stdio.h>
-#include <stdlib.h>
-void main(){
-int x;
-while (x) {
-x = 1;
-}
-}
 
 VALID 
 ./programs/valid/while3.min: reading file ./programs/valid/while3.min
-prettyFilePath - ./pretty/valid/while3.pretty.min----
-symbolFilePath - ./symbol/valid/while3.symbol.txt----
-generatedFilePath - ./generated/valid/while3.c----
-prettyFilePath - ./pretty/valid/while3.pretty.min----
-symbolFilePath - ./symbol/valid/while3.symbol.txt----
-generatedFilePath - ./generated/valid/while3.c----
--./pretty/valid/while3.pretty.min-
 symbolFilePath-./symbol/valid/while3.symbol.txt-
-#include <stdio.h>
-#include <stdlib.h>
-void main(){
-while (1) {
-}
-}
 
 VALID 

@@ -1,2 +1,0 @@
-var x : int;
-print (3*x);

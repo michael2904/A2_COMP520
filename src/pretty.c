@@ -6,7 +6,6 @@ extern char* prettyFilePath;
 FILE *prettyFile;
 
 void prettyPROG(PROG *prog){
-	printf("-%s-\n",prettyFilePath);
 	prettyFile = fopen(prettyFilePath, "w");
 	if(prog != NULL){
 		ind = 0;

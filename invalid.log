@@ -1,23 +1,9 @@
 ./programs/invalid/bad_comment.min: reading file ./programs/invalid/bad_comment.min
 INVALID: (line 1) unknown character '#'
 ./programs/invalid/bad_declaration_none.min: reading file ./programs/invalid/bad_declaration_none.min
-prettyFilePath - ./pretty/invalid/bad_declaration_none.pretty.min----
-symbolFilePath - ./symbol/invalid/bad_declaration_none.symbol.txt----
-generatedFilePath - ./generated/invalid/bad_declaration_none.c----
-prettyFilePath - ./pretty/invalid/bad_declaration_none.pretty.min----
-symbolFilePath - ./symbol/invalid/bad_declaration_none.symbol.txt----
-generatedFilePath - ./generated/invalid/bad_declaration_none.c----
--./pretty/invalid/bad_declaration_none.pretty.min-
 symbolFilePath-./symbol/invalid/bad_declaration_none.symbol.txt-
 This symbol "x" has no been defined.
 ./programs/invalid/bad_declaration_repeated.min: reading file ./programs/invalid/bad_declaration_repeated.min
-prettyFilePath - ./pretty/invalid/bad_declaration_repeated.pretty.min----
-symbolFilePath - ./symbol/invalid/bad_declaration_repeated.symbol.txt----
-generatedFilePath - ./generated/invalid/bad_declaration_repeated.c----
-prettyFilePath - ./pretty/invalid/bad_declaration_repeated.pretty.min----
-symbolFilePath - ./symbol/invalid/bad_declaration_repeated.symbol.txt----
-generatedFilePath - ./generated/invalid/bad_declaration_repeated.c----
--./pretty/invalid/bad_declaration_repeated.pretty.min-
 symbolFilePath-./symbol/invalid/bad_declaration_repeated.symbol.txt-
 ---- This identifier ( "x") was already declared at 2 ----
 ./programs/invalid/bad_float.min: INVALID: syntax error before -1.0111- --> error: syntax error
@@ -27,43 +13,15 @@ reading file ./programs/invalid/bad_if.min
 ./programs/invalid/bad_string.min: reading file ./programs/invalid/bad_string.min
 INVALID: (line 7) unknown character ','
 ./programs/invalid/bad_type_assignment.min: reading file ./programs/invalid/bad_type_assignment.min
-prettyFilePath - ./pretty/invalid/bad_type_assignment.pretty.min----
-symbolFilePath - ./symbol/invalid/bad_type_assignment.symbol.txt----
-generatedFilePath - ./generated/invalid/bad_type_assignment.c----
-prettyFilePath - ./pretty/invalid/bad_type_assignment.pretty.min----
-symbolFilePath - ./symbol/invalid/bad_type_assignment.symbol.txt----
-generatedFilePath - ./generated/invalid/bad_type_assignment.c----
--./pretty/invalid/bad_type_assignment.pretty.min-
 symbolFilePath-./symbol/invalid/bad_type_assignment.symbol.txt-
 This symbol has a wrong type. not int
 ./programs/invalid/bad_type_int_string.min: reading file ./programs/invalid/bad_type_int_string.min
-prettyFilePath - ./pretty/invalid/bad_type_int_string.pretty.min----
-symbolFilePath - ./symbol/invalid/bad_type_int_string.symbol.txt----
-generatedFilePath - ./generated/invalid/bad_type_int_string.c----
-prettyFilePath - ./pretty/invalid/bad_type_int_string.pretty.min----
-symbolFilePath - ./symbol/invalid/bad_type_int_string.symbol.txt----
-generatedFilePath - ./generated/invalid/bad_type_int_string.c----
--./pretty/invalid/bad_type_int_string.pretty.min-
 symbolFilePath-./symbol/invalid/bad_type_int_string.symbol.txt-
 This symbol has a wrong type.
 ./programs/invalid/bad_type_string_division.min: reading file ./programs/invalid/bad_type_string_division.min
-prettyFilePath - ./pretty/invalid/bad_type_string_division.pretty.min----
-symbolFilePath - ./symbol/invalid/bad_type_string_division.symbol.txt----
-generatedFilePath - ./generated/invalid/bad_type_string_division.c----
-prettyFilePath - ./pretty/invalid/bad_type_string_division.pretty.min----
-symbolFilePath - ./symbol/invalid/bad_type_string_division.symbol.txt----
-generatedFilePath - ./generated/invalid/bad_type_string_division.c----
--./pretty/invalid/bad_type_string_division.pretty.min-
 symbolFilePath-./symbol/invalid/bad_type_string_division.symbol.txt-
 This symbol has a wrong type.
 ./programs/invalid/bad_type_while.min: reading file ./programs/invalid/bad_type_while.min
-prettyFilePath - ./pretty/invalid/bad_type_while.pretty.min----
-symbolFilePath - ./symbol/invalid/bad_type_while.symbol.txt----
-generatedFilePath - ./generated/invalid/bad_type_while.c----
-prettyFilePath - ./pretty/invalid/bad_type_while.pretty.min----
-symbolFilePath - ./symbol/invalid/bad_type_while.symbol.txt----
-generatedFilePath - ./generated/invalid/bad_type_while.c----
--./pretty/invalid/bad_type_while.pretty.min-
 symbolFilePath-./symbol/invalid/bad_type_while.symbol.txt-
 Type Check exception at line 3. 
 ./programs/invalid/bad_while.min: INVALID: syntax error before -docurrent- --> error: syntax error
@@ -125,13 +83,6 @@ reading file ./programs/invalid/invalid3.min
 ./programs/invalid/invalid4.min: INVALID: syntax error before -res- --> error: syntax error
 reading file ./programs/invalid/invalid4.min
 ./programs/invalid/invalid5.min: reading file ./programs/invalid/invalid5.min
-prettyFilePath - ./pretty/invalid/invalid5.pretty.min----
-symbolFilePath - ./symbol/invalid/invalid5.symbol.txt----
-generatedFilePath - ./generated/invalid/invalid5.c----
-prettyFilePath - ./pretty/invalid/invalid5.pretty.min----
-symbolFilePath - ./symbol/invalid/invalid5.symbol.txt----
-generatedFilePath - ./generated/invalid/invalid5.c----
--./pretty/invalid/invalid5.pretty.min-
 symbolFilePath-./symbol/invalid/invalid5.symbol.txt-
 Type Check exception at line 16. 
 ./programs/invalid/invalid6.min: INVALID: syntax error before -1- --> error: syntax error
@@ -139,13 +90,6 @@ reading file ./programs/invalid/invalid6.min
 ./programs/invalid/invalid7.min: reading file ./programs/invalid/invalid7.min
 INVALID: (line 1) unknown character '.'
 ./programs/invalid/invalid8.min: reading file ./programs/invalid/invalid8.min
-prettyFilePath - ./pretty/invalid/invalid8.pretty.min----
-symbolFilePath - ./symbol/invalid/invalid8.symbol.txt----
-generatedFilePath - ./generated/invalid/invalid8.c----
-prettyFilePath - ./pretty/invalid/invalid8.pretty.min----
-symbolFilePath - ./symbol/invalid/invalid8.symbol.txt----
-generatedFilePath - ./generated/invalid/invalid8.c----
--./pretty/invalid/invalid8.pretty.min-
 symbolFilePath-./symbol/invalid/invalid8.symbol.txt-
 Type Check exception at line 14. 
 ./programs/invalid/literal1.min: INVALID: syntax error before -1- --> error: syntax error

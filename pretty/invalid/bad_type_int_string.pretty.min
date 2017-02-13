@@ -1,6 +1,0 @@
-var x : int;
-var s : string;
-s = "Hello";
-while x do
-	x = (x+s);
-done
